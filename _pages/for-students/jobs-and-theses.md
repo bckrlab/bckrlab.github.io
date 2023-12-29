@@ -44,7 +44,6 @@ At the moment, we offer the following topics for bachelor's and master's thesis.
 </div>
 <div style="margin-bottom: 2em"></div>
 
-<!-- pages/people.md -->
 <div class="people">
 {%- assign elements = site.students_theses -%}
 {%- if page.display_categories %}
