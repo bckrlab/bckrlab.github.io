@@ -8,7 +8,7 @@ category: funded
 ---
 
 
-<img src="/assets/img/projects/themis_fig1.png" style="float: right; width:100%; padding: 1em"/>
+<img src="/assets/img/projects/themis_fig1.png" style="float: right; width:100%; padding: 1em; background-color: white;"/>
 
 ## Motivation
 

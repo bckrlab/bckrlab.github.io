@@ -24,4 +24,8 @@ end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
+    # to check for dead links
+    # bundle exec htmlproofer ./_site
+    gem 'rake'
+    gem 'html-proofer'
 end
