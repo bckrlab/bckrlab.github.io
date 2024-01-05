@@ -3,6 +3,7 @@ layout: student_thesis
 title: Subgroup Discovery in Medical Data
 description: Find interesting subpopulations in medical data and extract new insights for diagnosis and treatment
 img:
+thumbnail: /assets/img/theses/medical-ai.jpg
 importance: 1
 category: open
 type: Bachelor & Master

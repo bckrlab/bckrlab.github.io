@@ -3,7 +3,7 @@ layout: student_thesis
 title: eXplAInable Transformers
 type: Master
 description: Investigate how attention maps can be interpreted
-thumbnail:
+thumbnail: /assets/img/theses/transformer.jpg
 importance: 1
 category: open
 source:

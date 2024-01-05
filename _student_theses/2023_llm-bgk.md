@@ -1,10 +1,10 @@
 ---
 layout: student_thesis
 title: Background Knowledge in LLMs
-type: Master
+type: Bachelor & Master
 description: Extract knowledge from Large Language Models and utilize it for other ML tasks
 img:
-thumbnail:
+thumbnail: /assets/img/theses/chat.png
 importance: 1
 category: open
 source:

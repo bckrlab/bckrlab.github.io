@@ -9,4 +9,4 @@ category: alumni
 
 <img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>
 
-Ali works on the [Deep Cell project](/projects/deepcell) with a CNN-based take.
+Ali works on the [Deep Cell project](/projects/2022_deepcell) with a CNN-based take.
