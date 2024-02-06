@@ -12,7 +12,7 @@ nav_order: 23
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, 05.02.2024, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: Monday, 12.02.2024, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
     Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfl6HbEX4FjS4U_16XDFxszbY0mImSRmQzLRquIjJME8I8B7g/viewform?usp=sf_link"><b>sign up here</b></a>, so I can plan a little.
 </div>
 
@@ -35,6 +35,7 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 ## History
 
 WS23/24
+- 2024-02-05: João Saraiva gave an introduction to processing EEG data in Python.
 - 2024-01-15: Agreed upon also working on group projects in addition to the Kaggle challenges. Would be interesting to hear teams present their progress.
 - 2024-01-08: Ovarian Cancer Competition is closed - started looking for new competitions like [this one](https://www.kaggle.com/competitions/playground-series-s4e1).
 - 2023-12-11: Looked into [Advent of Code](https://adventofcode.com/) Challenges. Also got familiar with pyvips to deal with huge Whole Slide Image PNG files.
