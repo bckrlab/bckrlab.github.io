@@ -8,6 +8,11 @@ nav_order: 5
 horizontal: false
 ---
 
+## Summer Term 24
+
+- [eXplainable AI](https://lsf.uni-rostock.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=160291&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+- [Seminar: Knowledge Informed Machine Learning](https://lsf.uni-rostock.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=163443&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+
 ## Winter Term 23/24
 
 - [Data Science](https://lsf.uni-rostock.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=156113&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
