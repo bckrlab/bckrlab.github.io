@@ -5,6 +5,7 @@ title: Data Science Club
 description: University of Rostock
 nav: true
 nav_order: 23
+next_meeting: 04.03.2024
 ---
 
 <!-- <img src="/assets/img/datascienceclub/kaggle_pizza.png" style="float: right; width:100%"/> -->
@@ -12,7 +13,7 @@ nav_order: 23
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, 26.02.2024, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: Monday, {{page.next_meeting}}, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
     Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfl6HbEX4FjS4U_16XDFxszbY0mImSRmQzLRquIjJME8I8B7g/viewform?usp=sf_link"><b>sign up here</b></a>, so I can plan a little.
 </div>
 
@@ -35,6 +36,8 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 ## History
 
 WS23/24
+
+- 2024-02-26: 3 days left for the Kaggle February challenge on obesity risk prediction! Spoiler: The "weight" feature seems to be quite informative.
 - 2024-02-19: Presentation about graph clustering, community detection and visualization.
 - 2024-02-12: Started the next Kaggle Playground Challenge on multi-class obesity detection.
 - 2024-02-05: João Saraiva gave an introduction to processing EEG data in Python.
