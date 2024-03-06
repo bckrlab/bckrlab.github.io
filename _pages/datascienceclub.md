@@ -5,7 +5,7 @@ title: Data Science Club
 description: University of Rostock
 nav: true
 nav_order: 23
-next_meeting: 04.03.2024
+next_meeting: 11.03.2024
 ---
 
 <!-- <img src="/assets/img/datascienceclub/kaggle_pizza.png" style="float: right; width:100%"/> -->
@@ -37,6 +37,7 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 
 WS23/24
 
+- 2024-03-04: New Members! Also looked into the [Harmful Brain Activity Classification Challenge](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification).
 - 2024-02-26: 3 days left for the Kaggle February challenge on obesity risk prediction! Spoiler: The "weight" feature seems to be quite informative.
 - 2024-02-19: Presentation about graph clustering, community detection and visualization.
 - 2024-02-12: Started the next Kaggle Playground Challenge on multi-class obesity detection.
