@@ -5,7 +5,7 @@ title: Data Science Club
 description: University of Rostock
 nav: true
 nav_order: 23
-next_meeting: 11.03.2024
+next_meeting: 22.04.2024
 ---
 
 <!-- <img src="/assets/img/datascienceclub/kaggle_pizza.png" style="float: right; width:100%"/> -->
