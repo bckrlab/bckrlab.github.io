@@ -4,7 +4,8 @@ on:
   schedule:
     # run every tuesday at 0:00 UTC
     # posix cron syntax: minute, hour, day of the month, month, weekday
-    - cron: "0 0 * * 2,3,4"
+    - cron: "0 0 * * 2"
+  workflow_dispatch:
 
 jobs:
   update-next-dsc-meeting:
