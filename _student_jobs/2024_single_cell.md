@@ -1,7 +1,7 @@
 ---
 layout: student_job
-title: "Analyzing single-cell gene expression: preprocessing the single-cell gene expression data and applying machine learning methods to it."
-description: Preprocessing the data to address noise, batch effects, and other technical artifacts. Following preprocessing, machine learning methods are applied to identify patterns, clusters, or predictive models within the gene expression profiles.
+title: "SC gene expression: preprocessing the single-cell gene expression data and applying machine learning methods to it."
+description: develope ML pipeline for single cell gene expression
 thumbnail: /assets/img/single_cell.jpg
 time:
 importance: 1
