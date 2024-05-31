@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profile
 title: Ali Tarakzi
 description: Master student
 img: /assets/img/people/placeholder.jpg

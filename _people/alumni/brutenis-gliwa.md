@@ -1,13 +1,11 @@
 ---
-layout: page
+layout: profile
 title: Brutenis Gliwa
 description: Master student, Data Science Club organizer
 img: /assets/img/people/brutenis-gliwa.jpg
 importance: 99
 category: member
 ---
-
-<img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>
 
 I work on an industry project for analyzing spinal cords using deep learning methods as part of my master's thesis.
 

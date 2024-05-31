@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<!-- `layout: default` wraps default.html around this -->
+
+<!-- people.html -->
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <div style="display: flex; flex-direction: row; gap: 1em; padding: 1em;">
+    <div style="flex: 25;">
+      <img src="{{ page.img }}" style="float: left; width: 100%;"/>
+    </div>
+
+    <div style="flex: 75;">
+      <h1>Contact</h1>
+
+      {%- if page.email -%}
+      <div>
+        Email: <a href= "mailto:{{ page.email }}">{{ page.email }}</a>
+      </div>
+      {%- endif -%}
+
+      {%- if page.phone -%}
+      <div>
+        Phone: <a href="tel:{{ page.phone }}">{{ page.phone }}</a>
+      </div>
+      {%- endif -%}
+
+      {%- if page.room -%}
+      <div>
+        Room: {{ page.room }}
+      </div>
+      {%- endif -%}
+
+      {%- if page.homepage -%}
+      <div>
+        Homepage: {{ page.homepage }}
+      </div>
+      {%- endif -%}
+
+      {%- if page.github -%}
+      <div>
+        GitHub: {{ page.github }}
+      </div>
+      {%- endif -%}
+
+      {%- if page.quote -%}
+      <blockquote>
+        <q>{{ page.quote }}</q>
+      </blockquote>
+      {%- endif -%}
+    </div>
+  </div>
+
+  <h2>About Me</h2>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {%- if page.related_publications != null and page.related_publications.size > 0 -%}
+  {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+  <h2>References</h2>
+  <div class="publications">
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+  </div>
+  {%- endif %}
+
+  {%- if site.giscus and page.giscus_comments -%}
+    {% include giscus.html %}
+  {%- endif -%}
+</div>

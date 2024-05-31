@@ -1,13 +1,12 @@
 ---
-layout: page
+layout: profile
 title: Martin Becker
 description: Assistant Professor (Jun.-Professor), PI
 img: /assets/img/people/martin-becker.jpg
 importance: 1
 category: member
+room: 271
 ---
-
-<img src="{{ page.img }}" style="float: left; width: 10em; padding-right: 1em; padding-bottom: 1em"/>
 
 I am passionate about highly collaborative projects and research that impact high-stake real-world problem settings at the intersection of medicine, environmental change, and human behavior through artificial intelligence and machine learning.
 
