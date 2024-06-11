@@ -7,7 +7,7 @@ importance: 11
 category: member
 phone: +49 381 498 7421
 email: bjarne.hiller@uni-rostock.de
-room: 270
+room: 229
 quote: It's not a bug, it's a feature!
 ---
 
