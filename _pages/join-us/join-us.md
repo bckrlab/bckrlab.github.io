@@ -23,15 +23,17 @@ nav_order: 99
 > * [Position 2](https://jobs.uni-rostock.de/jobposting/2317ec88a7e47bc3fb2c78f744415dd5a4de55400) (requires some German skills 🇩🇪)
 -->
 
-> Are you looking for an exciting Ph.D. position at the intersection of data science and leadership development at large organizations? Then work with the founder team of [JENEWEIN](https://jenewein.ch) on novel, impactful data science methods - while getting your Ph.D. as an external student at my lab for [Intelligent Data Analytics](https://bckrlab.org). We are looking forward to your [application](https://www.linkedin.com/jobs/view/3826383435)!
+<!-- > Are you looking for an exciting Ph.D. position at the intersection of data science and leadership development at large organizations? Then work with the founder team of [JENEWEIN](https://jenewein.ch) on novel, impactful data science methods - while getting your Ph.D. as an external student at my lab for [Intelligent Data Analytics](https://bckrlab.org). We are looking forward to your [application](https://www.linkedin.com/jobs/view/3826383435)! -->
+
+> We have an [open Postdoc position](https://jobs.uni-rostock.de/jobposting/f4bd26d562d88d5977d5ad62c75c9a258773c8cd0) to work on the [THEMIS project](/projects/2022_themis) where you can help lead multiple PhD students and develop your own research agenda. We are looking forward to your [application](https://jobs.uni-rostock.de/jobposting/f4bd26d562d88d5977d5ad62c75c9a258773c8cd0)!
 
 > For **student assistant positions**, please look [here](/for-students/jobs/).
 
 ## Contact Us!
 
-**We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated **PhD students, postdocs, and student assistants** with an interest in developing and applying machine learning for real-world problem settings. 
+👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated **PhD students, postdocs, and student assistants** with an interest in developing and applying machine learning for real-world problem settings. 
 So, if there are no positions listed above, please contact us!
-We may be planning calls or know about opportunities for you to get a PhD or a fun Postdoc position either at our group or within our international network 🌐. 
+We may be planning calls or know about opportunities for you to get a PhD or an exciting Postdoc position either at our group or within our international network 🌐. 
 
 ## Research Focus
 

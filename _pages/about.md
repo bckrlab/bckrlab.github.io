@@ -50,7 +50,7 @@ social: true  # includes social icons at the bottom of the page
 </div>
 -->
 
-> **[Join us!](/join-us/)** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are looking for several **PhD students or Postdocs** and **student assistants**.
+> **[Join us!](/join-us/)** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are looking for **Postdocs** and **student assistants**.
 You will work on [projects](projects) encompassing for example extracting and integrating domain knowledge from and into machine learning methods in the context of high-impact applications like (bio-)medicine and environmental change.
 
 The **Becker Lab** is a dynamic and quickly growing machine learning lab with a strong international network including for example Stanford University, UC San Diego, or UNC Chapel Hill.
