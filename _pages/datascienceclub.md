@@ -7,13 +7,15 @@ nav: true
 nav_order: 23
 ---
 
+{% assign date_for_next_monday = '' | next_monday %}
+
 <!-- <img src="/assets/img/datascienceclub/kaggle_pizza.png" style="float: right; width:100%"/> -->
 <!-- % next_meeting: see includes/next-dsc-meeting.txt -->
 
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, {% include next-dsc-meeting.txt -%}, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: Monday, {{ date_for_next_monday }}, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
     Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfl6HbEX4FjS4U_16XDFxszbY0mImSRmQzLRquIjJME8I8B7g/viewform?usp=sf_link"><b>sign up here</b></a>, so I can plan a little.
 </div>
 
@@ -33,6 +35,7 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 - [A gentle introduction to Kaggle](https://medium.datadriveninvestor.com/introduction-to-kaggle-for-beginners-in-machine-learning-and-data-science-865199d7ead2)
 - [Kaggle](https://www.kaggle.com/)
 
+<!-- 
 ## History
 
 WS23/24
@@ -80,4 +83,4 @@ WS22/23
 - **4th meeting**: Monday, 05.12.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. We are getting a scoreboard! 😄
 - **3rd meeting**: Monday, 28.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. We are starting to compete against each other, which is amazing! 🤩
 - **2nd meeting**: Monday, 21.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. Today pretty much everyone submitted their first challenge! And we found a place to get cheaper Pizza 😁
-- **1st meeting**: Monday, 14.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. It was a wonderful first meeting with more than 40 people attending!
+- **1st meeting**: Monday, 14.11.2022, 19:00 Uhr, Konrad-Zuse-Haus, Room 210. It was a wonderful first meeting with more than 40 people attending! -->
