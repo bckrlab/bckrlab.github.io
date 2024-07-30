@@ -7,15 +7,13 @@ nav: true
 nav_order: 23
 ---
 
-{% assign date_for_next_monday = '' | next_monday %}
-
 <!-- <img src="/assets/img/datascienceclub/kaggle_pizza.png" style="float: right; width:100%"/> -->
 <!-- % next_meeting: see includes/next-dsc-meeting.txt -->
 
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <div style="background-color:orange; color: black; padding: 1em">
-    <strong>Next meeting</strong>: Monday, {{ date_for_next_monday }}, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: Monday, {% include next-dsc-meeting.txt -%}, 19:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
     Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfl6HbEX4FjS4U_16XDFxszbY0mImSRmQzLRquIjJME8I8B7g/viewform?usp=sf_link"><b>sign up here</b></a>, so I can plan a little.
 </div>
 
