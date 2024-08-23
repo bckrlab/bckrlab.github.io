@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-07-27 12:15:00-0000
+date: 2024-08-23 12:15:00-0000
 inline: true
 ---
 
-🧑‍🤝‍🧑: **[Come join us!](/join-us/)** We are looking for a postdoc to work on [Themis](/projects/2022_themis) 🥳 and develop their own research agenda 🧠. The current application deadline is **September 17, 2024**.
+🏆 **KDD'24 Excellence in Reviewing Award!** We are honored to have just received a Certificate for Excellence in Reviewing at the [KDD'24](https://kdd2024.kdd.org/)!
