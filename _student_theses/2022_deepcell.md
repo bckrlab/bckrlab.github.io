@@ -1,7 +1,7 @@
 ---
 layout: student_thesis
 title: DeepCell
-type: Bachelor & Master
+type: Master
 description: "Geometric deep learning for single cell analysis for CyTOF data"
 thumbnail: /assets/img/theses/deepcell_tsne.png
 img: /assets/img/projects/deepcell_tsne.png
