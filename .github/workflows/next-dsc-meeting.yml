@@ -4,7 +4,7 @@ on:
   schedule:
     # run every tuesday at 0:00 UTC
     # posix cron syntax: minute, hour, day of the month, month, weekday
-    - cron: "0 0 * * 2"
+    - cron: "0 0 * * 4"
   workflow_dispatch:
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
       - run: echo "The ${{ github.repository }} has been cloned to the runner."
       - name: update
         run: |
-          date -d "next monday" +%x > _includes/next-dsc-meeting.txt
+          date -d "next wednesday" +%x > _includes/next-dsc-meeting.txt
           git config --global user.name "Robo-Bjarne"
           git config --global user.email "robo-bjarne@users.noreply.github.com"
           git commit -am "update next-dsc-meeting.txt"
