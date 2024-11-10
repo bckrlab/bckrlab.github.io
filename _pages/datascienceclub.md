@@ -17,6 +17,88 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
     Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfl6HbEX4FjS4U_16XDFxszbY0mImSRmQzLRquIjJME8I8B7g/viewform?usp=sf_link"><b>sign up here</b></a>, so I can plan a little.
 </div>
 
+<div class="data-visualization" id="viz"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script>
+// Create an animated data visualization
+const viz = d3.select("#viz");
+const width = viz.node().getBoundingClientRect().width;
+const height = 200;
+const margin = {top: 20, right: 20, bottom: 20, left: 20};
+
+const svg = viz.append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+const data = Array.from({length: 50}, (_, i) => ({
+    x: i,
+    y: Math.sin(i * 0.2) * 30 + 50 + Math.random() * 10
+}));
+
+const xScale = d3.scaleLinear()
+    .domain([0, data.length - 1])
+    .range([margin.left, width - margin.right]);
+
+const yScale = d3.scaleLinear()
+    .domain([0, 100])
+    .range([height - margin.bottom, margin.top]);
+
+const line = d3.line()
+    .x(d => xScale(d.x))
+    .y(d => yScale(d.y))
+    .curve(d3.curveNatural);
+
+const path = svg.append("path")
+    .datum(data)
+    .attr("fill", "none")
+    .attr("stroke", "#ff6e40")
+    .attr("stroke-width", 3)
+    .attr("d", line);
+
+const pathLength = path.node().getTotalLength();
+
+path
+    .attr("stroke-dasharray", pathLength)
+    .attr("stroke-dashoffset", pathLength)
+    .transition()
+    .duration(2000)
+    .ease(d3.easeLinear)
+    .attr("stroke-dashoffset", 0)
+    .on("end", function repeat() {
+        d3.select(this)
+            .attr("stroke-dashoffset", pathLength)
+            .transition()
+            .duration(2000)
+            .ease(d3.easeLinear)
+            .attr("stroke-dashoffset", 0)
+            .on("end", repeat);
+    });
+
+// Add floating particles
+const particles = svg.selectAll(".particle")
+    .data(Array(10).fill())
+    .enter()
+    .append("circle")
+    .attr("class", "particle")
+    .attr("r", 3)
+    .attr("fill", "#1e3d59")
+    .attr("cx", () => Math.random() * width)
+    .attr("cy", () => Math.random() * height);
+
+function animateParticles() {
+    particles
+        .transition()
+        .duration(3000)
+        .attr("cx", () => Math.random() * width)
+        .attr("cy", () => Math.random() * height)
+        .on("end", animateParticles);
+}
+
+animateParticles();
+</script>
+
+
 <div style="background-color:lightblue; color: black; padding: 1em">
     <strong>Pizza:</strong> Please bring 3 EUR for Pizza on Monday. It's so awesome that so many people came last time, so we will still get Pizza, but currently, I can't afford that much Pizza every week 😄
 </div>
