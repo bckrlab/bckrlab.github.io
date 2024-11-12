@@ -176,6 +176,28 @@ nav_order: 23
             font-size: 1.5em;
         }
     }
+
+    footer.fixed-bottom {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    footer.fixed-bottom div {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    footer.fixed-bottom .container {
+        color: green;
+    }
+
+    footer.fixed-bottom .container a {
+        color: lightgreen;
+    }
+
+    footer.fixed-bottom .container a:hover {
+        color: darkgreen;
+    }
+
+
 </style>
 
 <!-- No Experience Needed Notice -->
