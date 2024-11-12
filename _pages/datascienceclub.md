@@ -44,6 +44,11 @@ nav_order: 23
         background-color: rgba(0, 0, 0, 0.7);
         margin: -2rem 0;
         border: 2rem solid rgba(0, 0, 0, 0.7);
+        text-align: center;
+    }
+
+    .post > article > p {
+        margin: 2em 0;
     }
 
     /* Add a subtle background layer to content for readability */
@@ -107,50 +112,39 @@ nav_order: 23
     }
 
     /* Styling for links */
-    .dsc-terminal-style a {
+    .post > article a {
         color: #00ff00;
         text-decoration: underline;
         transition: color 0.3s;
     }
 
-    .dsc-terminal-style a:hover {
+    .post > article a:hover {
         color: #00cc00;
     }
 
-    /* Styling for Resources section */
-    .dsc-resources {
-        background-color: rgba(0, 26, 0, 0.85);
-        color: #00ff00;
-        padding: 1.5em;
-        margin: 1em 0;
-        border: 1px solid #00ff00;
-        border-radius: 8px;
-        box-shadow: 0 0 10px #00ff00;
-    }
-
-    .dsc-resources h2 {
+    .post > article > h2 {
         font-size: 1.8em;
         text-align: center;
-        margin-bottom: 1em;
+        margin: 1em 0;
         text-shadow: 0 0 5px #00ff00;
     }
 
-    .dsc-resources ul {
+    .post > article > ul {
         list-style-type: none; /* Remove default bullets */
         padding: 0;
     }
 
-    .dsc-resources li {
+    .post > article > li {
         margin: 0.5em 0;
         font-size: 1.2em;
     }
 
-    .dsc-resources a {
+    .post > article > a {
         color: #00ff00;
         text-decoration: underline;
     }
 
-    .dsc-resources a:hover {
+    .post > article > a:hover {
         color: #00cc00;
     }
 
@@ -179,14 +173,19 @@ nav_order: 23
     }
 </style>
 
-<div class="dsc-content-background">
-    <p class="description" style="text-align: center;">A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!</p>
+<!-- No Experience Needed Notice -->
+<div class="dsc-banner">
+    No prior knowledge or experience necessary!
 </div>
+
+<!-- Data Visualization Section -->
+<div id="viz"></div>
 
 <div class="dsc-banner">
     <strong>Next meeting</strong>: Wednesday, {% include next-dsc-meeting.txt %}, 17:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
-    Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfl6HbEX4FjS4U_16XDFxszbY0mImSRmQzLRquIjJME8I8B7g/viewform?usp=sf_link"><b>sign up here</b></a>, so I can plan a little.
 </div>
+
+A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
 
 <!-- Kaggle + Pizza Content -->
 <section class="dsc-content-section">
@@ -199,33 +198,16 @@ nav_order: 23
         </div>
     </div>
     <div>
-        <div class="dsc-icon">🍕</div>
-        <h2>Fun, casual setting with <strong>FREE PIZZA!</strong></h2>
+        <div class="dsc-big-icon">🍕</div>
+        <h2>Fun, casual setting with <strong>3€ PIZZA!</strong></h2>
         <p>Come to learn, code, or just hang out.</p>
     </div>
 </section>
 
-<!-- Data Visualization Section -->
-<div id="viz"></div>
+## Resources
 
-<!-- Pizza Contribution Notice -->
-<div class="dsc-banner">
-    <strong>Pizza:</strong> Please bring 3 EUR for Pizza on Monday. It's so awesome that so many people came last time, so we will still get Pizza, but currently, I can't afford that much Pizza every week 😄
-</div>
-
-<!-- No Experience Needed Notice -->
-<div class="dsc-banner">
-    No prior knowledge or experience necessary!
-</div>
-
-<!-- Resources Section -->
-<div class="dsc-resources">
-    <h2>Resources</h2>
-    <ul>
-        <li><a href="https://medium.datadriveninvestor.com/introduction-to-kaggle-for-beginners-in-machine-learning-and-data-science-865199d7ead2" target="_blank">A gentle introduction to Kaggle</a></li>
-        <li><a href="https://www.kaggle.com/" target="_blank">Kaggle</a></li>
-    </ul>
-</div>
+- [A gentle introduction to Kaggle](https://medium.datadriveninvestor.com/introduction-to-kaggle-for-beginners-in-machine-learning-and-data-science-865199d7ead2)
+- [Kaggle](https://www.kaggle.com/)
 
 <!-- Matrix Background Script -->
 
