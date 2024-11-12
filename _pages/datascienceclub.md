@@ -103,12 +103,27 @@ animateParticles();
     <strong>Pizza:</strong> Please bring 3 EUR for Pizza on Monday. It's so awesome that so many people came last time, so we will still get Pizza, but currently, I can't afford that much Pizza every week 😄
 </div>
 
-<div style="text-align: center; margin-bottom: 1em">
-    <div style="display: inline-block; margin: 1em; box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)">
-        <img src="/assets/img/datascienceclub/kaggle_pizza.png"/>
-        <div style="background-color:lightgreen; color: black; font-weight: bold; padding: 1em">No prior knowledge or experience necessary!</div>
+<div style="display: flex; align-items: center; justify-content: center; padding: 1em; background-color: #333; color: white;">
+    <div style="flex: 1; text-align: center; padding: 1em;">
+        <h2>Let’s solve real-life <strong>DATA SCIENCE COMPETITIONS</strong> together using state-of-the-art <strong>MACHINE LEARNING</strong> for FUN!</h2>
+        <p><span style="font-weight: bold; font-size: 1.5em; color: #20B5E5;">Kaggle</span></p>
+        <p>Win medals, win prize money, become famous 😊</p>
+        <div style="font-size: 2em;">
+            <span style="color: #CD7F32;">🥉</span>
+            <span style="color: #C0C0C0;">🥈</span>
+            <span style="color: #FFD700;">🥇</span>
+        </div>
+    </div>
+    <div style="flex: 1; text-align: center; padding: 1em;">
+        <p style="font-size: 2em;">🍕</p>
+        <h2>Fun, casual setting with <strong>FREE PIZZA!</strong></h2>
+        <p>Come to learn, code, or just hang out.</p>
     </div>
 </div>
+<div style="background-color:lightgreen; color: black; font-weight: bold; text-align: center; padding: 1em;">
+    No prior knowledge or experience necessary!
+</div>
+
 
 ## Resources
 
