@@ -209,7 +209,7 @@ nav_order: 23
 <div id="viz"></div>
 
 <div class="dsc-banner">
-    <strong>Next meeting</strong>: Wednesday, {% include next-dsc-meeting.txt %}, 17:00 Uhr, Konrad-Zuse-Haus, Room 116. <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: <a href="/assets/img/datascienceclub/date/event.ics" download="event.ics">Wednesday, {% include next-dsc-meeting.txt %}, 17:00 Uhr, Konrad-Zuse-Haus, Room 116.</a> <strong>Bring your laptops!</strong>
 </div>
 
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
