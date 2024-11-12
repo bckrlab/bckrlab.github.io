@@ -38,17 +38,17 @@ jobs:
 
           # Create the .ics content
           cat <<EOF > assets/img/datascienceclub/date/event.ics
-BEGIN:VCALENDAR
-VERSION:2.0
-BEGIN:VEVENT
-DTSTART:$start_time
-DTEND:$end_time
-SUMMARY:Data Science Club Meeting
-DESCRIPTION:Join us for the weekly Data Science Club meeting! Bring your laptops.
-LOCATION:Konrad-Zuse-Haus, Room 116
-END:VEVENT
-END:VCALENDAR
-EOF
+          BEGIN:VCALENDAR
+          VERSION:2.0
+          BEGIN:VEVENT
+          DTSTART:$start_time
+          DTEND:$end_time
+          SUMMARY:Data Science Club Meeting
+          DESCRIPTION:Join us for the weekly Data Science Club meeting! Bring your laptops.
+          LOCATION:Konrad-Zuse-Haus, Room 116
+          END:VEVENT
+          END:VCALENDAR
+          EOF
 
       - name: Commit and push changes
         run: |
