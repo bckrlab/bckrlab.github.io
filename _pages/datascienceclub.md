@@ -103,6 +103,11 @@ nav_order: 23
         font-size: 2.5em;
         margin: 0.5em 0;
     }
+    
+    .dsc-content-section div .dsc-big-icon {
+        font-size: 5em;
+        margin: 0.5em 0;
+    }
 
     .kaggle-title {
         color: #00ff00;
