@@ -116,6 +116,14 @@ nav_order: 23
         text-shadow: 0 0 3px #00ff00;
     }
 
+    p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
+        color: unset;
+    }
+
+    body {
+        background-color: black;
+    }
+
     /* Styling for links */
     .post > article a {
         color: #00ff00;
