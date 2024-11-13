@@ -2,9 +2,9 @@ name: Update next DSC meeting date
 
 on:
   schedule:
-    # run every tuesday at 0:00 UTC
+    # run every Tuesday at 0:00 UTC
     # posix cron syntax: minute, hour, day of the month, month, weekday
-    - cron: "0 0 * * 4"
+    - cron: "0 0 * * 2"
   workflow_dispatch:
 
 jobs:
@@ -15,12 +15,46 @@ jobs:
       - run: echo "The job was automatically triggered by a ${{ github.event_namme }} event."
       - name: checkout
         uses: actions/checkout@v4
-      - run: echo "The ${{ github.repository }} has been cloned to the runner."
-      - name: update
+
+      - name: Set up Git user for commits
         run: |
-          date -d "next wednesday" +%x > _includes/next-dsc-meeting.txt
           git config --global user.name "Robo-Bjarne"
           git config --global user.email "robo-bjarne@users.noreply.github.com"
-          git commit -am "update next-dsc-meeting.txt"
+
+      - name: Update next meeting date
+        run: |
+          # Get the date of the next Wednesday
+          next_meeting_date=$(date -d "next Wednesday" +%x)
+          
+          # Save the date to the file
+          echo "$next_meeting_date" > _includes/next-dsc-meeting.txt
+
+      - name: Generate .ics file for next meeting
+        run: |
+          # Get the date and time for the event in YYYYMMDD format
+          event_date=$(date -d "next Wednesday" +"%Y%m%d")
+          start_time="${event_date}T170000Z"
+          end_time="${event_date}T180000Z"
+
+          # Create the .ics content
+          cat <<EOF > assets/img/datascienceclub/date/event.ics
+          BEGIN:VCALENDAR
+          VERSION:2.0
+          BEGIN:VEVENT
+          DTSTART:$start_time
+          DTEND:$end_time
+          SUMMARY:Data Science Club Meeting
+          DESCRIPTION:Join us for the weekly Data Science Club meeting! Bring your laptops.
+          LOCATION:Konrad-Zuse-Haus, Room 116
+          END:VEVENT
+          END:VCALENDAR
+          EOF
+
+      - name: Commit and push changes
+        run: |
+          git add _includes/next-dsc-meeting.txt assets/img/datascienceclub/date/event.ics
+          git commit -m "Update next DSC meeting date and .ics file"
           git push
-      - run: echo "Until we meet again."
+
+      - name: Final message
+        run: echo "Update complete. The next meeting date and event file have been updated."
