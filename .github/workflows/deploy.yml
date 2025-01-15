@@ -1,6 +1,10 @@
 name: deploy
 
 on:
+  schedule:
+    # run every Tuesday at 0:00 UTC
+    # posix cron syntax: minute, hour, day of the month, month, weekday
+    - cron: "30 0 * * 2"
   push:
     branches:
       - master
