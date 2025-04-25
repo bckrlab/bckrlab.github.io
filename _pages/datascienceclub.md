@@ -241,8 +241,9 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 
 ## Resources
 
+- [Our Tutorials](/dsc-tutorials)
 - [A gentle introduction to Kaggle](https://medium.datadriveninvestor.com/introduction-to-kaggle-for-beginners-in-machine-learning-and-data-science-865199d7ead2)
-- [Kaggle](https://www.kaggle.com/)
+- [Kaggle](https://www.kaggle.com/)>
 
 <!-- Matrix Background Script -->
 
