@@ -4,7 +4,7 @@ on:
   schedule:
     # run every Tuesday at 0:00 UTC
     # posix cron syntax: minute, hour, day of the month, month, weekday
-    - cron: "0 0 * * 4"
+    - cron: "0 0 * * 3"
   workflow_dispatch:
 
 jobs:
@@ -23,8 +23,8 @@ jobs:
 
       - name: Update next meeting date
         run: |
-          # Get the date of the next Wednesday
-          next_meeting_date=$(date -d "next Wednesday" +%x)
+          # Get the date of the next Tuesday
+          next_meeting_date=$(date -d "next Tuesday" +%x)
           
           # Save the date to the file
           echo "$next_meeting_date" > _includes/next-dsc-meeting.txt
@@ -32,9 +32,9 @@ jobs:
       - name: Generate .ics file for next meeting
         run: |
           # Get the date and time for the event in YYYYMMDD format
-          event_date=$(date -d "next Wednesday" +"%Y%m%d")
+          event_date=$(date -d "next Tuesday" +"%Y%m%d")
           start_time="${event_date}T170000Z"
-          end_time="${event_date}T180000Z"
+          end_time="${event_date}T200000Z"
 
           # Create the .ics content
           cat <<EOF > assets/img/datascienceclub/date/event.ics
