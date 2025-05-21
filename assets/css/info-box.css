@@ -1,0 +1,34 @@
+/* provides styles for a details / summary info box */
+.info-box {
+
+    /* background-color: var(--global-card-bg-color); */
+    border-radius: 8px;
+    padding: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    overflow: hidden;
+
+    summary {
+        /* background-color: var(--global-theme-color); */
+        border-style: solid;
+        border-color: var(--global-theme-color);
+        font-weight: bold;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    summary:hover {
+        /* background-color: var(--global-hover-color); */
+    }
+
+    .content {
+        padding: 8px;
+    }
+}
+
+.info-box[open] {
+    summary {
+        border-radius: 8px 8px 0 0;
+    }
+
+}
