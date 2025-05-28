@@ -6,7 +6,7 @@ description:
 nav: false
 nav_order: 3
 display_categories: []
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/showcase.md -->
