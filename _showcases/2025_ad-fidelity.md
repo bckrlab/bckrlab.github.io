@@ -1,15 +1,22 @@
 ---
-layout: page
+layout: showcase
 title: Evaluating the Fidelity of Explanations for Convolutional Neural Networks in Alzheimer's Disease Detection
-permalink: /p/ad-fidelity
+title-short: ad-fidelity
+description: XAI for Alzheimer's Disease detection 
+date: 2025-03-02
+doi-url: https://doi.org/10.1007/s00440-002-0236-0
+doi-badge: 10/n87w
+github: https://github.com/chillerb/ad-fidelity
+github-badge: ad-fidelity
+img: /assets/img/p/2025_ad-fidelity/feature-attribution.png
 ---
 
-<link rel="stylesheet" href="/assets/css/info-box.css">
-
 <!-- Bagdes -->
-
+<!--
+Now handled by showcase layout
 [![Conference Paper Badge](https://img.shields.io/badge/doi-10%2Fn87w-blue?style=flat&logo=doi)](https://doi.org/10.1007/978-3-658-47422-5_18)
 [![GitHub Badge](https://img.shields.io/badge/GitHub-ad--fidelity-black?style=flat&logo=github)](https://github.com/chillerb/ad-fidelity)
+-->
 
 
 > Can we trust explanations of neural network decisions in Alzheimer's Disease (AD) detection?

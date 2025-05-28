@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<!-- page.html -->
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+  
+  <div class="badges">
+    {%- if page.doi-url && page.doi-badge -%}
+    <a href="{{page.doi-url}}">
+      <img src="https://img.shields.io/badge/doi-{{page.doi-badge}}-blue?style=for-the-badge&logo=doi" alt="badge-doi"/>
+    </a>
+    {%- endif -%}
+
+    {%- if page.github && page.github-badge -%}
+    <a href="{{page.github}}">
+      <img src="https://img.shields.io/badge/GitHub-{{page.github-badge | replace: "-", "--" }}-black?style=for-the-badge&logo=github" alt="badge-doi"/>
+    </a>
+    {%- endif -%}
+  </div>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {%- if page.related_publications != null and page.related_publications.size > 0 -%}
+  {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+  <h2>References</h2>
+  <div class="publications">
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+  </div>
+  {%- endif %}
+
+  {%- if site.giscus and page.giscus_comments -%}
+    {% include giscus.html %}
+  {%- endif -%}
+</div>

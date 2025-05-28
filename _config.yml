@@ -178,6 +178,9 @@ collections:
   student_theses:
     output: true
     permalink: /for-students/theses/:path/
+  showcases:
+    output: true
+    permalink: /p/:path/
 
 announcements:
   enabled: true

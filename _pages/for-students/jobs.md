@@ -11,9 +11,14 @@ horizontal: false
 
 > **We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several student assistants** with an interest in machine learning.
 
-
 <div class="jobs">
     {% for job in site.student_jobs %}
     {% include student_jobs.html %}
     {% endfor %}
+</div>
+
+<div style="display: flex; justify-content: center;">
+    <a href="mailto:{{ site.email }}" class="link-button hoverable">
+        APPLY NOW!
+    </a>
 </div>

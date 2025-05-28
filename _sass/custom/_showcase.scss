@@ -1,0 +1,86 @@
+/*
+Nice elements for the paper showcase pages
+*/
+
+/* provides styles for a details / summary info box */
+details.info-box {
+
+    /* background-color: var(--global-card-bg-color); */
+    border-radius: 8px;
+    padding: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    overflow: hidden;
+
+    summary {
+        /* background-color: var(--global-theme-color); */
+        border-style: solid;
+        border-color: var(--global-theme-color);
+        font-weight: bold;
+        padding: 8px;
+        border-radius: 8px;
+        cursor: "pointer";
+    }
+
+    summary:hover {
+        /* background-color: var(--global-hover-color); */
+    }
+
+    .content {
+        padding: 8px;
+    }
+}
+
+.info-box[open] {
+    summary {
+        border-radius: 8px 8px 0 0;
+    }
+
+}
+
+div.badges {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.showcases {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    img {
+      width: 100%;
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .grid-sizer, .grid-item {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+  h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}

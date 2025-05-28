@@ -1,0 +1,22 @@
+// Custom elements added to the al-folio theme
+
+/*
+    for links that should resemble buttons
+*/
+a.link-button {
+    /* background-color: var(--global-theme-color); */
+    border-style: solid;
+    border-color: var(--global-theme-color);
+    font-weight: bold;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--global-text-color);
+
+    &:hover {
+        color: var(--global-theme-color);
+    }
+}
+
