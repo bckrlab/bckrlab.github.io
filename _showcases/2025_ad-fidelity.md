@@ -9,6 +9,7 @@ doi-badge: 10/n87w
 github: https://github.com/chillerb/ad-fidelity
 github-badge: ad-fidelity
 img: /assets/img/p/2025_ad-fidelity/feature-attribution.png
+permalink: /p/ad-fidelity/
 ---
 
 <!-- Bagdes -->
