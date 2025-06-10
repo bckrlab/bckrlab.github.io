@@ -26,3 +26,8 @@ The above approach schematic shows: In an exemplary application, binary classifi
 ## Acknowledgements
 
 The funding for this study was in part provided by the BMBF (01IS22077).
+
+## Resources
+
+- Code: [https://github.com/bckrlab/subroc](https://github.com/bckrlab/subroc)
+- Preprint: [https://arxiv.org/abs/2505.11283](https://arxiv.org/abs/2505.11283)
