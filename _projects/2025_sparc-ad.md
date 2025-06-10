@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sparc-AD
+title: SPARC-AD
 description: "Spectroscopic Profiling for Alzheimer's Recognition and Characterization"
 img: assets/img/projects/sparc-ad.jpg
 importance: 1

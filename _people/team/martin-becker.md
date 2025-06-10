@@ -5,7 +5,10 @@ description: Professor, PI
 img: /assets/img/people/martin-becker.png
 importance: 1
 category: member
-room: 271
+room: 03C08 (Aufgang C, Ebene 3)
+phone: +49 6421 28 25509
+email: martin.becker@* (add [university domain](https://uni-marburg.de))
+# quote: 
 ---
 
 I am passionate about highly collaborative projects and research that impact high-stake real-world problem settings at the intersection of medicine, environmental change, and human behavior through artificial intelligence and machine learning.
