@@ -5,7 +5,7 @@ description: Professor, PI
 img: /assets/img/people/martin-becker.png
 importance: 1
 category: member
-room: 03C08 (Aufgang C, Ebene 3)
+room: 03C08 (Aufgang C, Ebene 3), Hans-Meerwein-Straße 6, 35043 Marburg
 phone: +49 6421 28 25509
 email: martin.becker@* (add university domain)
 # quote: 
