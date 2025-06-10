@@ -7,7 +7,7 @@ importance: 1
 category: member
 room: 03C08 (Aufgang C, Ebene 3)
 phone: +49 6421 28 25509
-email: martin.becker@* (add [university domain](https://uni-marburg.de))
+email: martin.becker@* (add university domain)
 # quote: 
 ---
 
