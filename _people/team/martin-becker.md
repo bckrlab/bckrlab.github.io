@@ -2,7 +2,7 @@
 layout: profile
 title: Martin Becker
 description: Assistant Professor (Jun.-Professor), PI
-img: /assets/img/people/martin-becker.jpg
+img: /assets/img/people/martin-becker.png
 importance: 1
 category: member
 room: 271
@@ -22,7 +22,11 @@ For my publications and projects, please refer to [Google Scholar](https://schol
 
 <table class=cv>
     <tr>
-        <td>2022 - now:</td>
+        <td>2025 - now:</td>
+        <td><strong>Professor</strong>; University of Marburg (Germany); Hessian.AI - Deep Decision Support Systems</td>
+    </tr>
+    <tr>
+        <td>2022 - 2025:</td>
         <td><strong>Assistant Professor</strong>; University of Rostock (Germany); Chair for Intelligent Data Analytics</td>
     </tr>
     <tr>
