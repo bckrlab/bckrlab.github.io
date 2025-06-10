@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Martin Becker
-description: Assistant Professor (Jun.-Professor), PI
+description: Professor, PI
 img: /assets/img/people/martin-becker.png
 importance: 1
 category: member
