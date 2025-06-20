@@ -43,7 +43,7 @@ nav_order: 21
 We are really looking forward to your application!
 The **current application deadline is October 15th, 2023.**
 The **earliest start date is November 1st, 2023.** 
-<!-- Please send your material directly to Martin Becker: [martin.becker@uni-rostock.de](mailto:martin.becker@uni-rostock.de).
+<!-- Please send your material directly to Martin Becker: [martin.becker@uni-marburg.de](mailto:martin.becker@uni-marburg.de).
 The subject should be **"PhD Application 2022"**. -->
 Please apply via the [application portal of the University of Rostock](https://jobs.uni-rostock.de/jobposting/695791729fb8928b74602186ca8fa4f7111bbfc00).
 Please including the following as a single PDF:
