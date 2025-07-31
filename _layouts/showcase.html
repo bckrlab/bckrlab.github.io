@@ -10,19 +10,19 @@ layout: default
   </header>
   
   <div class="badges">
-    {%- if page.doi-url && page.doi-badge -%}
+    {%- if page.doi-url and page.doi-badge -%}
     <a href="{{page.doi-url}}">
       <img src="https://img.shields.io/badge/doi-{{page.doi-badge}}-blue?style=for-the-badge&logo=doi" alt="badge-doi"/>
     </a>
     {%- endif -%}
 
-    {%- if page.github && page.github-badge -%}
+    {%- if page.github and page.github-badge -%}
     <a href="{{page.github}}">
       <img src="https://img.shields.io/badge/GitHub-{{page.github-badge | replace: "-", "--" }}-black?style=for-the-badge&logo=github" alt="badge-github"/>
     </a>
     {%- endif -%}
 
-    {%- if page.arxiv && page.arxiv-badge -%}
+    {%- if page.arxiv and page.arxiv-badge -%}
     <a href="{{page.arxiv}}">
       <img src="https://img.shields.io/badge/arXiv-{{page.arxiv-badge | replace: "-", "--" }}-b31b1b?style=for-the-badge&logo=arxiv" alt="badge-arxiv"/>
     </a>

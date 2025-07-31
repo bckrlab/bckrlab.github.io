@@ -6,7 +6,7 @@ description: subgroup-level model performance evaluation
 github: https://github.com/bckrlab/subroc
 github-badge: subroc
 arxiv: https://arxiv.org/abs/2505.11283
-arxiv-badge: 2505.11283
+arxiv-badge: "2505.11283"
 img: /assets/img/p/2025_subroc/figure_1.png
 permalink: /p/subroc/
 ---
