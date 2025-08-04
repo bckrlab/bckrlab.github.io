@@ -24,9 +24,17 @@ nav_order: 99
 
 <!-- > Are you looking for an exciting Ph.D. position at the intersection of data science and leadership development at large organizations? Then work with the founder team of [JENEWEIN](https://jenewein.ch) on novel, impactful data science methods - while getting your Ph.D. as an external student at my lab for [Intelligent Data Analytics](https://bckrlab.org). We are looking forward to your [application](https://www.linkedin.com/jobs/view/3826383435)! -->
 
-> We currently do not have open Postdoc or PhD positions. Please check back here regularly, as we may post new openings in the near future!
+<!-- > We currently do not have open Postdoc or PhD positions. Please check back here regularly, as we may post new openings in the near future! -->
 
-> For **student assistant positions**, please look [here](/for-students/jobs/).
+> 👩‍🎓🧑‍🎓 We are have various **open PhD and Postdoc positions**!
+
+> 👩‍⚕️🙋‍♂️ For **student assistant positions**, please look [here](/for-students/jobs/).
+
+<div class="jobs">
+    {% for job in site.jobs %}
+    {% include jobs.html %}
+    {% endfor %}
+</div>
 
 ## Contact Us!
 
