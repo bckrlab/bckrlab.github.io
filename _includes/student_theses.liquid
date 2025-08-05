@@ -1,9 +1,5 @@
 <!-- _includes/student_theses.liquid -->
-{% if thesis.redirect -%}
-<a href="{{ thesis.redirect }}">
-{%- else -%}
-<a href="{{ thesis.url | relative_url }}">
-{%- endif %}
+<a href="{% if thesis.redirect %}{{ thesis.redirect }}{% else %}{{ thesis.url | relative_url }}{% endif %}">
   <div class="card hoverable">
     <div style="display: flex; flex-direction: row;">
         <div style="flex: 0 0 20%;">

@@ -1,9 +1,5 @@
 <!-- _includes/student_jobs.liquid -->
-{% if job.redirect -%}
-<a href="{{ job.redirect }}">
-{%- else -%}
-<a href="{{ job.url | relative_url }}">
-{%- endif %}
+<a href="{% if job.redirect %}{{ job.redirect }}{% else %}{{ job.url | relative_url }}{% endif %}">
   <div class="card hoverable">
     <div style="display: flex; flex-direction: row;">
         <div style="flex: 0 0 20%;">

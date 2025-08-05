@@ -18,13 +18,13 @@ layout: default
 
     {%- if page.github and page.github-badge -%}
     <a href="{{page.github}}">
-      <img src="https://img.shields.io/badge/GitHub-{{page.github-badge | replace: "-", "--" }}-black?style=for-the-badge&logo=github" alt="badge-github"/>
+      <img src="https://img.shields.io/badge/GitHub-{{page.github-badge | replace: '-', '--' }}-black?style=for-the-badge&logo=github" alt="badge-github"/>
     </a>
     {%- endif -%}
 
     {%- if page.arxiv and page.arxiv-badge -%}
     <a href="{{page.arxiv}}">
-      <img src="https://img.shields.io/badge/arXiv-{{page.arxiv-badge | replace: "-", "--" }}-b31b1b?style=for-the-badge&logo=arxiv" alt="badge-arxiv"/>
+      <img src="https://img.shields.io/badge/arXiv-{{page.arxiv-badge | replace: '-', '--' }}-b31b1b?style=for-the-badge&logo=arxiv" alt="badge-arxiv"/>
     </a>
     {%- endif -%}
   </div>
