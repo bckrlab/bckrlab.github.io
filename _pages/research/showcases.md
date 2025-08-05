@@ -22,14 +22,14 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for showcase in sorted_showcases -%}
-      {% include showcase_horizontal.html %}
+      {% include showcase_horizontal.liquid %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for showcase in sorted_showcases -%}
-      {% include showcase.html %}
+      {% include showcase.liquid %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -43,14 +43,14 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for showcase in sorted_showcases -%}
-      {% include showcase_horizontal.html %}
+      {% include showcase_horizontal.liquid %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for showcase in sorted_showcases -%}
-      {% include showcase.html %}
+      {% include showcase.liquid %}
     {%- endfor %}
   </div>
   {%- endif -%}

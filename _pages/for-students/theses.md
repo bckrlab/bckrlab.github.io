@@ -11,6 +11,6 @@ horizontal: false
 
 <div class="theses">
     {% for thesis in site.student_theses %}
-    {% include student_theses.html %}
+    {% include student_theses.liquid %}
     {% endfor %}
 </div>
