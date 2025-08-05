@@ -1,4 +1,4 @@
-# _pages
+# \_pages
 
 - all pages of the website go here
 - you can specify the whole page via markdown
