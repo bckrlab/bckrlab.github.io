@@ -32,7 +32,7 @@ nav_order: 99
 
 <div class="jobs">
     {% for job in site.jobs %}
-    {% include jobs.html %}
+    {% include jobs.liquid %}
     {% endfor %}
 </div>
 
