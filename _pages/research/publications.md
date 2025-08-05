@@ -10,7 +10,12 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f bibsonomy --group_by year --group_order descending %}
+<!-- Bibsearch Feature -->
 
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography -f bibsonomy --group_by year --group_order descending %}
 
 </div>
