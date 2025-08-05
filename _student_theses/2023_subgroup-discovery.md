@@ -15,4 +15,3 @@ In a medical context, a simple (but interpretable) disease prediction model migh
 Discovering such subgroups would enable the exploitation of simple models for subsets of the population.
 Subgroup discovery is also related to fairness since a disease prediction model is expected to perform equally well for each patient.
 We offer a range of bachelor's and master theses in this context with application ranging from biomedicine to environmental modeling.
-

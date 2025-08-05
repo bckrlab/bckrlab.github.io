@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: 
+description:
 nav: false
 nav_order: 3
 display_categories: [funded, other]

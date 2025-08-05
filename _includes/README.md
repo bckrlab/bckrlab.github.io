@@ -1,4 +1,4 @@
-# _includes
+# \_includes
 
 - similar to `_layouts`
 - however, specify individual page "components" instead of a whole page layout

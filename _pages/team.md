@@ -36,10 +36,15 @@ horizontal: false
   {% endfor %}
 
 {%- else -%}
+
 <!-- Display people without categories -->
-  {%- assign sorted_people = site.people | sort: "importance" -%}
+
+{%- assign sorted_people = site.people | sort: "importance" -%}
+
   <!-- Generate cards for each person -->
-  {% if page.horizontal -%}
+
+{% if page.horizontal -%}
+
   <div class="container">
     <div class="row row-cols-2">
     {%- for person in sorted_people -%}

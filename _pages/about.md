@@ -4,7 +4,7 @@ title: About
 permalink: /
 nav: false
 nav_order: 1
-subtitle: 
+subtitle:
 
 # profile:
 #   align: right
@@ -25,10 +25,10 @@ announcements:
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit:  # leave blank to include all the blog posts
+  limit: # leave blank to include all the blog posts
 ---
 
-<!-- 
+<!--
 <div style="margin-bottom: 1em; vertical-align: middle">
   <div style="display: inline-block; margin-right: .5em; vertical-align: middle">
     <img src="assets/img/rostock_logo.png" width=50em>
@@ -43,10 +43,10 @@ latest_posts:
   </div>
   <div style="display: inline-block; vertical-align: middle">
     <i>Stanford University</i>
-  </div> 
+  </div>
 </div>
   -->
-<!-- 
+<!--
 <div style="margin-bottom: 2em">
   <div style="display: inline-block; margin-right: .5em; vertical-align: middle">
     <img src="assets/img/stanford-medicine_logo_small.png" width=50em>
@@ -64,8 +64,8 @@ For this, we **develop novel approaches and methodology** in close collaboration
 This allows us to directly impact real-world scenarios like local patient populations or ecosystems maximizing translational and synergetic effects of our work.
 In this context, the main focus of our group is threefold:
 
-* **understanding complex systems** by extracting novel insights into their underlying processes,
-* **modeling complex systems** by integrating existing domain knowledge into machine learning methods,
-* and developing methods for **knowledge management, representation, and interaction**.
+- **understanding complex systems** by extracting novel insights into their underlying processes,
+- **modeling complex systems** by integrating existing domain knowledge into machine learning methods,
+- and developing methods for **knowledge management, representation, and interaction**.
 
 Our approaches range from multi-modal learning, network analysis, and exceptional model mining to Bayesian modeling, deep learning, representation learning, explainable AI, and human computer interaction.

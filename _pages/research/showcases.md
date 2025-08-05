@@ -2,7 +2,7 @@
 layout: page
 title: Showcases
 permalink: /showcases/
-description: 
+description:
 nav: false
 nav_order: 3
 display_categories: []
@@ -36,10 +36,15 @@ horizontal: false
   {% endfor %}
 
 {%- else -%}
+
 <!-- Display showcase without categories -->
-  {%- assign sorted_showcases = site.showcases | sort: "importance" -%}
+
+{%- assign sorted_showcases = site.showcases | sort: "importance" -%}
+
   <!-- Generate cards for each showcase -->
-  {% if page.horizontal -%}
+
+{% if page.horizontal -%}
+
   <div class="container">
     <div class="row row-cols-2">
     {%- for showcase in sorted_showcases -%}
