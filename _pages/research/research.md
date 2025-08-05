@@ -9,6 +9,6 @@ children:
       permalink: /publications/
     - title: Projects
       permalink: /projects/
-    - title: Showcase
-      permalink: /showcase/
+    - title: Showcases
+      permalink: /showcases/
 ---

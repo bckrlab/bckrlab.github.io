@@ -1,8 +1,8 @@
 ---
 layout: page
-title: People
-permalink: /people/
-description: People in the lab.
+title: Team
+permalink: /team/
+description: Our team.
 nav: true
 nav_order: 1
 display_categories: [member, alumni]

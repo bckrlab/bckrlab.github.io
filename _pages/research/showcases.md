@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Showcase
-permalink: /showcase/
+title: Showcases
+permalink: /showcases/
 description: 
 nav: false
 nav_order: 3
@@ -9,7 +9,7 @@ display_categories: []
 horizontal: false
 ---
 
-<!-- pages/showcase.md -->
+<!-- pages/showcases.md -->
 <div class="showcases">
 {%- if site.enable_showcase_categories and page.display_categories %}
   <!-- Display categorized showcase -->
