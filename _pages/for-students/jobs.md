@@ -13,7 +13,7 @@ horizontal: false
 
 <div class="jobs">
     {% for job in site.student_jobs %}
-    {% include student_jobs.html %}
+    {% include student_jobs.liquid %}
     {% endfor %}
 </div>
 

@@ -8,7 +8,7 @@ category: member
 room: 03C08 (Aufgang C, Ebene 3), Hans-Meerwein-Straße 6, 35043 Marburg
 phone: +49 6421 28 25509
 email: martin.becker@* (add university domain)
-# quote: 
+# quote:
 ---
 
 I am passionate about highly collaborative projects and research that impact high-stake real-world problem settings at the intersection of medicine, environmental change, and human behavior through artificial intelligence and machine learning.
@@ -65,34 +65,34 @@ For my publications and projects, please refer to [Google Scholar](https://schol
 
 ## Community Service
 
-* **PC member of / reviewer for computer science journals, conferences and workshops:**
-npj Digital Medicine (Journal);
-Machine Learning (Journal);
-Frontiers in Artificial Intelligence (Journal);
-Frontiers in Big Data (Journal);
-EPJ Data Science (Journal);
-KDD,
-AAAI;
-IJCAI;
-ICDM; <!-- sub -->
-WWW; <!-- sub -->
-ECML/PKDD;
-ECAI;
-ICWSM;
-ISWC; <!-- sub -->
-ESWC;
-ECIR;  <!-- sub -->
-DSAA;  <!-- sub -->
-SocInfo;
-INFORMATIK;
-IoP;
-MUSE;
-KDML; and more.
+- **PC member of / reviewer for computer science journals, conferences and workshops:**
+  npj Digital Medicine (Journal);
+  Machine Learning (Journal);
+  Frontiers in Artificial Intelligence (Journal);
+  Frontiers in Big Data (Journal);
+  EPJ Data Science (Journal);
+  KDD,
+  AAAI;
+  IJCAI;
+  ICDM; <!-- sub -->
+  WWW; <!-- sub -->
+  ECML/PKDD;
+  ECAI;
+  ICWSM;
+  ISWC; <!-- sub -->
+  ESWC;
+  ECIR; <!-- sub -->
+  DSAA; <!-- sub -->
+  SocInfo;
+  INFORMATIK;
+  IoP;
+  MUSE;
+  KDML; and more.
 
-* **Summer school organization:** ECML/PKDD Summer School 2019 on Machine Learning and Data Mining for Geo-Spatial Data/Volunteered Geographic Information, Quality of Experience, and HCI
+- **Summer school organization:** ECML/PKDD Summer School 2019 on Machine Learning and Data Mining for Geo-Spatial Data/Volunteered Geographic Information, Quality of Experience, and HCI
 
 ## Teaching
 
-* Explainable Artificial Intelligence
-* Data Science
-* Information Retrieval
+- Explainable Artificial Intelligence
+- Data Science
+- Information Retrieval

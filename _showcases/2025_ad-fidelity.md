@@ -2,7 +2,7 @@
 layout: showcase
 title: Evaluating the Fidelity of Explanations for Convolutional Neural Networks in Alzheimer's Disease Detection
 title-short: ad-fidelity
-description: XAI for Alzheimer's Disease detection 
+description: XAI for Alzheimer's Disease detection
 date: 2025-03-02
 doi-url: https://doi.org/10.1007/s00440-002-0236-0
 doi-badge: 10/n87w
@@ -18,7 +18,6 @@ Now handled by showcase layout
 [![Conference Paper Badge](https://img.shields.io/badge/doi-10%2Fn87w-blue?style=flat&logo=doi)](https://doi.org/10.1007/978-3-658-47422-5_18)
 [![GitHub Badge](https://img.shields.io/badge/GitHub-ad--fidelity-black?style=flat&logo=github)](https://github.com/chillerb/ad-fidelity)
 -->
-
 
 > Can we trust explanations of neural network decisions in Alzheimer's Disease (AD) detection?
 
@@ -52,6 +51,7 @@ Now handled by showcase layout
 
         <img src="/assets/img/p/2025_ad-fidelity/deletion-cn-mean.png" width="100%" alt="deletion metric with mean image as reference"/>
     </div>
+
 </details>
 
 <details class="info-box hoverable">
@@ -73,13 +73,15 @@ Now handled by showcase layout
     Thus, the atrophied AD hippocampus was *decreasing* the probability for Alzheimer's Disease *relative to the reference image*.
     Therefore, the explanation method ended up assigning negative contribution.
     </div>
+
 </details>
 
 > In conclusion, we found the **mean image of the control class** to generate more interpretable explanations, since it asks the question:
 >
-> *"Why was this subject predicted to have AD - compared to a healthy control subject?"*
+> _"Why was this subject predicted to have AD - compared to a healthy control subject?"_
 
 ## Conference Talk
+
 <!--
 Well, embedding PDF slides into HTML is not super trivial.
 From what I've seen until now, there are multiple options:

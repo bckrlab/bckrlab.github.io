@@ -25,7 +25,7 @@ jobs:
         run: |
           # Get the date of the next Tuesday
           next_meeting_date=$(date -d "next Tuesday" +%x)
-          
+
           # Save the date to the file
           echo "$next_meeting_date" > _includes/next-dsc-meeting.txt
 

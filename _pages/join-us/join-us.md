@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Join Us!
-description: 
+description:
 permalink: /join-us/
 nav: true
 nav_order: 99
@@ -40,7 +40,7 @@ nav_order: 99
 
 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated **PhD students, postdocs, and student assistants** with an interest in developing and applying machine learning for real-world problem settings.  
 So, if there are no positions listed above, please contact us!  
-We may be planning calls or know about opportunities for you to get a PhD or an exciting Postdoc position either at our group or within our international network 🌐.  
+We may be planning calls or know about opportunities for you to get a PhD or an exciting Postdoc position either at our group or within our international network 🌐.
 
 ## Research Focus
 

@@ -5,9 +5,8 @@ description: "Latent-representations of multi-omics data to derive a biological 
 img: assets/img/projects/fingerprint.jpg
 importance: 1
 category: other
-source: 
+source:
 ---
-
 
 <img src="/assets/img/projects/fingerprint.jpg" style="float: right; width:70%; padding: 1em"/>
 

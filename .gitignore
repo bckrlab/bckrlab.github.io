@@ -9,7 +9,9 @@ _site
 .tweet-cache
 vendor
 # node stuff
-node_modules
 package.json
 package-lock.json
 .idea
+Gemfile.lock
+assets/libs/
+node_modules/
