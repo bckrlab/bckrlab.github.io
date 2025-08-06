@@ -1,7 +1,7 @@
 ---
 layout: page
 title: THEMIS
-description: "Leveraging background knowledge for understanding and modeling complex systems (<strong>BMBF Junior Research Group</strong>)"
+description: "Leveraging Background Knowledge for Understanding and Modeling Complex Systems (<strong>BMBF Junior Research Group</strong>)"
 img: assets/img/projects/themis_fig1_small.png
 importance: 2
 category: funded

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Multi-omics Fingerprint
-description: "Latent-representations of multi-omics data to derive a biological fingerprint"
+title: Multi-Omics Fingerprint
+description: "Latent-Representations of Multi-Omics Data to Derive a Biological Fingerprint"
 img: assets/img/projects/fingerprint.jpg
 importance: 1
 category: other

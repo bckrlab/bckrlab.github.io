@@ -1,8 +1,8 @@
 ---
 layout: page
-title: SPARC-AD
+title: "JPND: SPARC-AD"
 description: "Spectroscopic Profiling for Alzheimer's Recognition and Characterization"
-img: assets/img/projects/sparc-ad.jpg
+img: assets/img/projects/sparc-ad_square.png
 importance: 1
 category: funded
 ---

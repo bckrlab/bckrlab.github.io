@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DeepCell
-description: "Geometric deep learning for single cell analysis for CyTOF data"
+description: "Geometric Deep Learning for Single Cell Analysis for CyTOF data"
 img: assets/img/projects/deepcell_tsne.png
 importance: 1
 category: other
