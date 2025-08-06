@@ -58,9 +58,24 @@ latest_posts:
 </div>
 -->
 
-The **Becker Lab** is a dynamic and quickly growing machine learning lab with a strong international network including for example Stanford University, UC San Diego, or UNC Chapel Hill.
-We aim to **impact high-stake real-world problem settings** at the intersection of **medicine, environmental change, and human behavior** through **artificial intelligence and machine learning**.
-For this, we **develop novel approaches and methodology** in close collaboration with practitioners and domain experts that enable **unprecedented insights into complex systems**.
+We are a research group we aim to **impact high-stake real-world problem settings** at the intersection of **medicine, environmental change, and human behavior** through **artificial intelligence and machine learning**.
+
+<div style="padding-bottom: 1em">
+<a href="/projects/2025_crc-mia">
+<img src="/assets/img/projects/crc-mia.png" width="24%" height="auto" loading="eager">
+</a>
+<a href="/projects/2025_nexcell">
+<img src="/assets/img/projects/nexcell.png" width="24%" height="auto" loading="eager">
+</a>
+<a href="/projects/2025_sparc-ad">
+<img src="/assets/img/projects/sparc-ad_square.png" width="24%" height="auto" loading="eager">
+</a>
+<a href="/projects/2023_fingerprint">
+<img src="/assets/img/projects/fingerprint.jpg" width="24%" height="auto" loading="eager">
+</a>
+</div>
+
+We **develop novel approaches and methodology** in close collaboration with practitioners and domain experts that enable **unprecedented insights into complex systems**.
 This allows us to directly impact real-world scenarios like local patient populations or ecosystems maximizing translational and synergetic effects of our work.
 In this context, the main focus of our group is threefold:
 
@@ -68,4 +83,11 @@ In this context, the main focus of our group is threefold:
 - **modeling complex systems** by integrating existing domain knowledge into machine learning methods,
 - and developing methods for **knowledge management, representation, and interaction**.
 
+
+
 Our approaches range from multi-modal learning, network analysis, and exceptional model mining to Bayesian modeling, deep learning, representation learning, explainable AI, and human computer interaction.
+
+
+ <!-- with a strong international network including for example Stanford University, UC San Diego, or UNC Chapel Hill.
+  the **Becker Lab** is a dynamic and quickly growing machine learning lab
+We aim to -->

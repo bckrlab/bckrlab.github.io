@@ -3,6 +3,15 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
+    <div style="margin-left: 0em; display: block; float: right;">
+      <div style="display: inline-block; margin-right: 2em; vertical-align: middle;">
+        <a href="https://www.uni-marburg.de"><img src="assets/img/uni-marburg_logo.jpg" height="50em" /></a>
+      </div>
+      <div style="display: inline-block; vertical-align: middle; margin-right: 2em">
+        <!-- <i>Marburg University</i> -->
+        <a href="https://hessian.ai"><img src="assets/img/hessian-ai_logo.svg" height="50em" /></a>
+      </div>
+    </div>
     <h1 class="post-title">
       {% if site.title == 'blank' -%}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
@@ -11,16 +20,6 @@ layout: default
         {{ site.title }}
       {%- endif %}
     </h1>
-
-    <div style="margin-left: 0em; margin-bottom: 1em; vertical-align: middle; display: inline-block;">
-      <div style="display: inline-block; margin-right: 2em; vertical-align: middle">
-        <a href="https://www.uni-marburg.de"><img src="assets/img/uni-marburg_logo.jpg" height="100em"></a>
-      </div>
-      <div style="display: inline-block; vertical-align: middle; margin-right: 2em">
-        <!-- <i>Marburg University</i> -->
-        <a href="https://hessian.ai"><img src="assets/img/hessian-ai_logo.svg" height="50em"></a>
-      </div>
-    </div>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
