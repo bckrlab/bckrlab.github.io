@@ -7,7 +7,7 @@ importance: 1
 category: funded
 ---
 
-<img src="/assets/img/projects/nexcell.png" style="float: right; width:70%; padding: 1em"/>
+<img src="/assets/img/projects/nexcell.png" style="float: right; width:50%; padding: 1em"/>
 
 NEXCELL (2025 - 2029) is a collaborative research project aimed at developing a revolutionary next-generation cell and gene therapy platform for point-of-care therapy. The project aims to produce personalized cell therapies directly at the point of care, thereby improving access to life-saving therapies for cancer patients. 
 

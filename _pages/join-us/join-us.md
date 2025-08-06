@@ -26,15 +26,17 @@ nav_order: 99
 
 <!-- > We currently do not have open Postdoc or PhD positions. Please check back here regularly, as we may post new openings in the near future! -->
 
-> 👩‍🎓🧑‍🎓 We are have various **open PhD and Postdoc positions**!
+> 👩👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are have **open PhD and Postdoc positions**!
 
-> 👩‍⚕️🙋‍♂️ For **student assistant positions**, please look [here](/for-students/jobs/).
+<!-- > 👩‍⚕️🙋‍♂️ For **student assistant positions**, please look [here](/for-students/jobs/). -->
 
 <div class="jobs">
     {% for job in site.jobs %}
     {% include jobs.liquid %}
     {% endfor %}
 </div>
+
+<br/>
 
 ## Contact Us!
 
