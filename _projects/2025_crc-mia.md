@@ -34,7 +34,7 @@ pregnancy study PRINCE. Advanced proteome, immune and lipidome datasets will be 
 using the available biosamples, followed by state-of-the-art integrated pattern mining and machine learning
 methods to define MIA immunophenotype(s) in pregnant women with overweight and
 obesity. Our insights will also allow to assess the contribution of MIA to the risk of pregnancy
-complications. 
+complications.
 
 The next step will then be to comparatively dissect MIA immunophenotypes triggered
 by other adversities, such as nutritional factors and maternal infections. These conditions will also

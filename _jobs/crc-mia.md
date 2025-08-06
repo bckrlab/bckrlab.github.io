@@ -16,8 +16,8 @@ In the context of a large-scale, interdisciplinary project ([DFG CRC on “Mater
 
 > Postdoc / senior PhD on Artificial Intelligence for Understanding Maternal Immune Activation
 
-* **How to apply:** Application portal will open by August 15th (announced here)
-* **Deadline:** Between August 31st and September 15th (TBA)
+- **How to apply:** Application portal will open by August 15th (announced here)
+- **Deadline:** Between August 31st and September 15th (TBA)
 
 ## More Information
 
@@ -28,7 +28,7 @@ The position is to be filled as soon as possible after 01.10.2025 for a period o
 
 - Project work and management within the CRC on “Maternal Immune Activation” involving the development and application of novel artificial intelligence methods
 - Working on methods for predictive multi-omics integration, longitudinal pattern mining, and explainable artificial intelligence for complex system analysis and understanding
-- Tightly collaborating with world-leading biologists and domain experts for iteratively refining models of maternal immune activation 
+- Tightly collaborating with world-leading biologists and domain experts for iteratively refining models of maternal immune activation
 - Driving high‑impact open research: contribute to open‑source toolkits, co-author peer‑reviewed conference and journal publications, present results internationally
 - Scientific services in research and teaching, including the supervision and mentoring junior students
 - Development and implementation of project ideas including preparation and contribution to competitive research proposals - laying the groundwork for an internationally visible independent scientific profile

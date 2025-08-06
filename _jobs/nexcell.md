@@ -14,13 +14,13 @@ In the context of the [NEXCELL project](/projects/2025_nexcell), we invite outst
 
 > Postdoc on AI for Personalized Cell and Gene Therapy
 
-* **How to apply:** Application portal will open by August 15th (announced here)
-* **Deadline:** Between August 31st and September 15th (TBA)
+- **How to apply:** Application portal will open by August 15th (announced here)
+- **Deadline:** Between August 31st and September 15th (TBA)
 
 > PhD on AI for Personalized Cell and Gene Therapy
 
-* **How to apply:** Application portal will open by August 15th (announced here)
-* **Deadline:** Between August 31st and September 15th (TBA)
+- **How to apply:** Application portal will open by August 15th (announced here)
+- **Deadline:** Between August 31st and September 15th (TBA)
 
 ## More Information
 
@@ -34,20 +34,23 @@ The innovation lies in the world's first integration of hybrid probabilistic mod
 - Adapt and extend large language models and symbolic reasoning tools to interpret process logs, design predictive diagnostics, and support explainable decision‑making for bio-process engineers
 - Develop and implement novel methods for longitudinal cell culture analysis spanning fluorescence cell imaging, single cell as well as bulk analysis
 - Collaborate with industry partners and domain experts to iteratively refine models for real‑world deployment
-- Explore reinforcement learning and simulation strategies for  trajectory tracking and adaptive control in bio-processes with high uncertainty and complex dynamics
+- Explore reinforcement learning and simulation strategies for trajectory tracking and adaptive control in bio-processes with high uncertainty and complex dynamics
 - Drive high‑impact open research: contribute to open‑source tool kits, co-author peer‑reviewed conference and journal publications, present results internationally, and mentor junior students—laying the groundwork for an internationally visible scientific profile
 
 ### Your Profile
 
 **For doctoral candidates:**
-- Completed scientific university degree (diploma, master's or comparable degree) in computer science, mathematics, a comparable field, or an applied science (engineering, biology, ...) with strong skills in data analysis and/or machine learning  (with very good results)
+
+- Completed scientific university degree (diploma, master's or comparable degree) in computer science, mathematics, a comparable field, or an applied science (engineering, biology, ...) with strong skills in data analysis and/or machine learning (with very good results)
 
 **For postdoctoral candidates:**
-- Completed PhD in computer science, mathematics or a comparable field, or an applied science (engineering, biology, ...) with strong skills in data analysis and/or machine learning  (with very good results)
+
+- Completed PhD in computer science, mathematics or a comparable field, or an applied science (engineering, biology, ...) with strong skills in data analysis and/or machine learning (with very good results)
 
 **Both positions:**
-- (desirable) several years of experience in data analysis / probabilistic modeling / AI 
-- (desirable for two of the positions) experience in single cell analysis (e.g., flow cytometry, FACS, CyTOF) 
+
+- (desirable) several years of experience in data analysis / probabilistic modeling / AI
+- (desirable for two of the positions) experience in single cell analysis (e.g., flow cytometry, FACS, CyTOF)
 - Proficiency in written and spoken English
 - Basic knowledge of German or willingness to learn it in a short period of time
 - Willingness to strongly commit to work on your own scientific qualification

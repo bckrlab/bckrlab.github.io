@@ -9,7 +9,7 @@ category: funded
 
 <img src="/assets/img/projects/nexcell.png" style="float: right; width:50%; padding: 1em"/>
 
-NEXCELL (2025 - 2029) is a collaborative research project aimed at developing a revolutionary next-generation cell and gene therapy platform for point-of-care therapy. The project aims to produce personalized cell therapies directly at the point of care, thereby improving access to life-saving therapies for cancer patients. 
+NEXCELL (2025 - 2029) is a collaborative research project aimed at developing a revolutionary next-generation cell and gene therapy platform for point-of-care therapy. The project aims to produce personalized cell therapies directly at the point of care, thereby improving access to life-saving therapies for cancer patients.
 
 As part of the project, the [HAIML group](https://www.haiml.informatik.uni-rostock.de/) at [University of Rostock](https://www.uni-rostock.de/) as well as the [Becker Lab](/) at the [University of Marburg](https://www.uni-marburg.de) are developing a probabilistic digital twin of the complex NEXCELL bioreactor system that intelligently monitors technical and biological processes. Using Bayesian AI methods, critical process parameters are reconstructed from large-scale log files and quality controls are automated.
 

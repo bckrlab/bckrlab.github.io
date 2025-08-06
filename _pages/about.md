@@ -83,10 +83,7 @@ In this context, the main focus of our group is threefold:
 - **modeling complex systems** by integrating existing domain knowledge into machine learning methods,
 - and developing methods for **knowledge management, representation, and interaction**.
 
-
-
 Our approaches range from multi-modal learning, network analysis, and exceptional model mining to Bayesian modeling, deep learning, representation learning, explainable AI, and human computer interaction.
-
 
  <!-- with a strong international network including for example Stanford University, UC San Diego, or UNC Chapel Hill.
   the **Becker Lab** is a dynamic and quickly growing machine learning lab
