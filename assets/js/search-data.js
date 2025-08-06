@@ -77,6 +77,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "jobs-ai-for-understanding-maternal-immune-activation",
+          title: 'AI for Understanding Maternal Immune Activation',
+          description: "Postdoc",
+          section: "Jobs",handler: () => {
+              window.location.href = "/join-us/jobs/crc-mia/";
+            },},{id: "jobs-ai-for-tracking-and-optimizing-end-to-end-cell-processing-for-clinical-cell-therapy",
+          title: 'AI for Tracking and Optimizing End‑To‑End Cell Processing for Clinical Cell Therapy',
+          description: "Postdoc + PhD",
+          section: "Jobs",handler: () => {
+              window.location.href = "/join-us/jobs/nexcell/";
+            },},{id: "jobs-your-own-idea",
+          title: 'Your own idea',
+          description: "Come talk to us!",
+          section: "Jobs",handler: () => {
+              window.location.href = "/join-us/jobs/your-project/";
             },},{id: "news-martin-becker-starts-as-jun-professor-at-the-university-of-rostock-germany-heading-the-chair-of-intelligent-data-analytics",
           title: '🏁 Martin Becker starts as Jun.-Professor at the University of Rostock, Germany, heading...',
           description: "",
@@ -186,7 +201,10 @@ ninja.data = [{
           title: '🏁 AI for the Molecular Mapping of Alzheimer’s Disease: International JPND Project Funded!...',
           description: "",
           section: "News",},{id: "news-does-the-incorporation-of-background-knowledge-always-improve-the-performance-of-graph-neural-networks-learn-more-in-informed-but-not-always-improved-challenging-the-benefit-of-background-knowledge-in-gnns-our-submission-to-biokdd-2025",
-          title: '🤔 Does the incorporation of Background Knowledge always improve the performance of Graph...',
+          title: '📚 Does the incorporation of Background Knowledge always improve the performance of Graph...',
+          description: "",
+          section: "News",},{id: "news-️-presenting-at-biokdd-at-kdd-2025-today-we-are-reporting-on-the-challenges-of-integrating-background-knowledge-in-gnns-based-on-out-paper-informed-but-not-always-improved-challenging-the-benefit-of-background-knowledge-in-gnns",
+          title: '🗣️ Presenting at BioKDD at KDD 2025 today! We are reporting on the...',
           description: "",
           section: "News",},{id: "people-ali-tarakzi",
           title: 'Ali Tarakzi',
@@ -275,27 +293,27 @@ ninja.data = [{
               window.location.href = "/people/team/tom-siegl/";
             },},{id: "projects-deepcell",
           title: 'DeepCell',
-          description: "Geometric deep learning for single cell analysis for CyTOF data",
+          description: "Geometric Deep Learning for Single Cell Analysis for CyTOF data",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_deepcell/";
             },},{id: "projects-themis",
           title: 'THEMIS',
-          description: "Leveraging background knowledge for understanding and modeling complex systems (BMBF Junior Research Group)",
+          description: "Leveraging Background Knowledge for Understanding and Modeling Complex Systems (BMBF Junior Research Group)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_themis/";
             },},{id: "projects-multi-omics-fingerprint",
-          title: 'Multi-omics Fingerprint',
-          description: "Latent-representations of multi-omics data to derive a biological fingerprint",
+          title: 'Multi-Omics Fingerprint',
+          description: "Latent-Representations of Multi-Omics Data to Derive a Biological Fingerprint",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_fingerprint/";
             },},{id: "projects-thrombosis-in-cancer-patients",
           title: 'Thrombosis in Cancer Patients',
-          description: "Machine learning based identification of immune-related biomarkers for thrombosis risk assessment in cancer patients",
+          description: "Machine Learning Based Identification of Immune-Related Biomarkers for Thrombosis Risk Assessment in Cancer Patients",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_push/";
             },},{id: "projects-vibe",
           title: 'ViBe',
-          description: "Behavior monitoring in virtual reality for profiling cognitive decline",
+          description: "Behavior Monitoring in Virtual Reality for Profiling Cognitive Decline",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_vibe/";
             },},{id: "projects-deepcell",
@@ -303,8 +321,18 @@ ninja.data = [{
           description: "A VR Knowledge Board powered by AI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_vr-knowledge-board/";
-            },},{id: "projects-sparc-ad",
-          title: 'SPARC-AD',
+            },},{id: "projects-crc-mia",
+          title: 'CRC MIA',
+          description: "AI for Understanding Maternal Immune Activation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2025_crc-mia/";
+            },},{id: "projects-nexcell",
+          title: 'NEXCELL',
+          description: "AI for Tracking and Optimizing End‑To‑End Cell Processing for Clinical Cell Therapy",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2025_nexcell/";
+            },},{id: "projects-jpnd-sparc-ad",
+          title: 'JPND: SPARC-AD',
           description: "Spectroscopic Profiling for Alzheimer&#39;s Recognition and Characterization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2025_sparc-ad/";
