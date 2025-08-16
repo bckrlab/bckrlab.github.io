@@ -40,20 +40,16 @@ nav_order: 99
 
 ## Contact Us!
 
-👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated **PhD students, postdocs, and student assistants** with an interest in developing and applying machine learning for real-world problem settings.  
-So, if there are no positions listed above, please contact us!  
-We may be planning calls or know about opportunities for you to get a PhD or an exciting Postdoc position either at our group or within our international network 🌐.
+👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated **PhD students, postdocs, and student assistants** with an interest in developing artificial intelligence and machine learning for real-world problem settings. So, if there are no positions listed above, and you have your own ideas and are excited to work with us, please contact us! We are always happy to support your project proposals or stipends.
 
 ## Research Focus
 
-Our focus lies on developing and applying cutting-edge machine learning methods in high-impact application scenarios, e.g., in (bio-)medicine and environmental change.  
-In this context, [our projects cover a wide variety of directions and applications](/projects).  
-For example, they revolve around understanding complex systems by background knowledge extraction and exploitation in the context of the BMBF-funded research group [THEMIS](/projects/2022_themis).  
-Additionally, we are always interested in your own project ideas, so don’t hesitate to contact us! We will support you as best as we can.
+Our focus lies on developing cutting-edge artificial intelligence and machine learning methods in high-impact application scenarios, e.g., in (bio-)medicine and environmental change.  
+In this context, [our projects cover a wide variety of directions and applications](/projects).
 
 ## Our Mission and Values
 
-You will join a machine learning group in a beautiful city by the ocean with a strong global network, including Stanford University, UC San Diego, or UNC Chapel Hill, as well as local expertise. This provides you with direct access and collaborations with world-experts in machine learning, (bio-)medicine, and marine ecology. Joining us will give you the unique opportunity to help us shape a young, highly collaborative, and team-oriented group that aims to impact real-world problem settings through cutting-edge machine learning. We are particularly passionate about methods to understand the underlying processes of complex systems, domain knowledge integration into machine learning methods for accurate modeling, as well as human interaction with existing knowledge. For this, we employ a multitude of approaches ranging from multi-modal learning, deep learning, Bayesian modeling, and exceptional model mining to explainable artificial intelligence, fairness, and human-computer interaction.
+You will join a dynamic and ambitious group of highly motivated highly motivated researchers with a strong global network, including Stanford University, UC San Diego, UNC Chapel Hill, Lund University (Sweden), or McGill University (Canada). This provides you with direct access and collaborations with world-experts in artificial intelligence. machine learning and a wide variety of applied fields. Joining us will give you the unique opportunity to help us shape a highly collaborative, and team-oriented group that aims to impact real-world problem settings through cutting-edge machine learning. We are particularly passionate about methods to understand the underlying processes of complex systems, domain knowledge integration into machine learning methods for accurate modeling, as well as human interaction with existing knowledge. For this, we employ a multitude of approaches ranging from multi-modal learning, graph and geometric deep learning, explainable artificial intelligence, Bayesian modeling, and exceptional model mining.
 
 We are committed create a friendly, supportive, team-oriented, and inclusive work environment with highly motivated colleagues. Diversity across all dimensions is a core value for our lab and a key contributor to our innovative research. Applicants from groups traditionally underrepresented in computer science and machine learning are strongly encouraged to apply.
 

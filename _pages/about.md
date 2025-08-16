@@ -64,16 +64,16 @@ We are a research group we aim to **impact high-stake real-world problem setting
 
 <div style="padding-bottom: 1em">
 <a href="/projects/2025_crc-mia">
-<img src="/assets/img/projects/crc-mia.png" width="24%" height="auto" loading="eager">
+<img src="/assets/img/projects/crc-mia.png" style="width:24%" loading="eager">
 </a>
 <a href="/projects/2025_nexcell">
-<img src="/assets/img/projects/nexcell.png" width="24%" height="auto" loading="eager">
+<img src="/assets/img/projects/nexcell.png" style="width:24%" loading="eager">
 </a>
 <a href="/projects/2025_sparc-ad">
-<img src="/assets/img/projects/sparc-ad_square.png" width="24%" height="auto" loading="eager">
+<img src="/assets/img/projects/sparc-ad_square.png" style="width:24%" loading="eager">
 </a>
 <a href="/projects/2023_fingerprint">
-<img src="/assets/img/projects/fingerprint.jpg" width="24%" height="auto" loading="eager">
+<img src="/assets/img/projects/fingerprint.jpg" style="width:24%" loading="eager">
 </a>
 </div>
 

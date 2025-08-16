@@ -1,7 +1,7 @@
 ---
 layout: student_job
-title: AI for Tracking and Optimizing End‑To‑End Cell Processing for Clinical Cell Therapy
-description: Postdoc + PhD
+title: <strong>NEXCELL</strong> - AI for Optimizing End‑To‑End Cell Processing in Clinical Cell Therapy
+description: "2 Postdoc and 2 PhD positions, <strong>Deadline: August 31th</strong>"
 thumbnail: /assets/img/projects/nexcell.png
 time:
 importance: 1
@@ -14,13 +14,13 @@ In the context of the [NEXCELL project](/projects/2025_nexcell), we invite outst
 
 > Postdoc on AI for Personalized Cell and Gene Therapy
 
-- **How to apply:** Application portal will open by August 15th (announced here)
-- **Deadline:** Between August 31st and September 15th (TBA)
+- **How to apply:** [Application portal](https://jobs.uni-rostock.de/jobposting/20b177ee5b38c8ec763da3443da877fa657d5b6d0)
+- **Deadline:** August 31st
 
 > PhD on AI for Personalized Cell and Gene Therapy
 
-- **How to apply:** Application portal will open by August 15th (announced here)
-- **Deadline:** Between August 31st and September 15th (TBA)
+- **How to apply:** [Application portal](https://jobs.uni-rostock.de/jobposting/20b177ee5b38c8ec763da3443da877fa657d5b6d0)
+- **Deadline:** August 31st
 
 ## More Information
 

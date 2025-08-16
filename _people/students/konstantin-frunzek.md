@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Konstantin Frunzek
-description: Bachelor student
+description: Student assistant
 img: /assets/img/people/konstantin-frunzek.jpg
 importance: 91
 category: member

@@ -1,7 +1,7 @@
 ---
 layout: student_job
-title: AI for Understanding Maternal Immune Activation
-description: Postdoc
+title: <strong>CRC MIA</strong> - AI for Understanding Maternal Immune Activation
+description: "Postdoc, <strong>Deadline: September 14th</strong>"
 thumbnail: /assets/img/projects/crc-mia.png
 time:
 importance: 1
@@ -16,7 +16,7 @@ In the context of a large-scale, interdisciplinary project ([DFG CRC on “Mater
 
 > Postdoc / senior PhD on Artificial Intelligence for Understanding Maternal Immune Activation
 
-- **How to apply:** Application portal will open by August 15th (announced here)
+- **How to apply:** Application portal will open by August 20th (announced here)
 - **Deadline:** Between August 31st and September 15th (TBA)
 
 ## More Information

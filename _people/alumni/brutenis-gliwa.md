@@ -4,7 +4,7 @@ title: Brutenis Gliwa
 description: Master student, Data Science Club organizer
 img: /assets/img/people/brutenis-gliwa.jpg
 importance: 99
-category: member
+category: alumni
 ---
 
 I work on an industry project for analyzing spinal cords using deep learning methods as part of my master's thesis.
