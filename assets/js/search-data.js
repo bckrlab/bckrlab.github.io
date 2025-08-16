@@ -77,14 +77,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "jobs-ai-for-understanding-maternal-immune-activation",
-          title: 'AI for Understanding Maternal Immune Activation',
-          description: "Postdoc",
+            },},{id: "jobs-crc-mia-ai-for-understanding-maternal-immune-activation",
+          title: 'CRC MIA - AI for Understanding Maternal Immune Activation',
+          description: "Postdoc, Deadline: September 14th",
           section: "Jobs",handler: () => {
               window.location.href = "/join-us/jobs/crc-mia/";
-            },},{id: "jobs-ai-for-tracking-and-optimizing-end-to-end-cell-processing-for-clinical-cell-therapy",
-          title: 'AI for Tracking and Optimizing End‑To‑End Cell Processing for Clinical Cell Therapy',
-          description: "Postdoc + PhD",
+            },},{id: "jobs-nexcell-ai-for-optimizing-end-to-end-cell-processing-in-clinical-cell-therapy",
+          title: 'NEXCELL - AI for Optimizing End‑To‑End Cell Processing in Clinical Cell Therapy',
+          description: "2 Postdoc and 2 PhD positions, Deadline: August 31th",
           section: "Jobs",handler: () => {
               window.location.href = "/join-us/jobs/nexcell/";
             },},{id: "jobs-your-own-idea",
@@ -206,7 +206,15 @@ ninja.data = [{
           section: "News",},{id: "news-️-presenting-at-biokdd-at-kdd-2025-today-we-are-reporting-on-the-challenges-of-integrating-background-knowledge-in-gnns-based-on-out-paper-informed-but-not-always-improved-challenging-the-benefit-of-background-knowledge-in-gnns",
           title: '🗣️ Presenting at BioKDD at KDD 2025 today! We are reporting on the...',
           description: "",
-          section: "News",},{id: "people-ali-tarakzi",
+          section: "News",},{id: "news-come-join-us-we-are-looking-for-postdocs-and-phd-students-work-on-the-nexcell-project-on-ai-for-personalized-cell-and-gene-therapy-the-application-deadline-is-august-31st-2025",
+          title: '🧑‍🤝‍🧑: Come join us! We are looking for Postdocs and PhD students work...',
+          description: "",
+          section: "News",},{id: "people-ahmed-alkishki",
+          title: 'Ahmed Alkishki',
+          description: "Student assistant",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/ahmed-alkishki/";
+            },},{id: "people-ali-tarakzi",
           title: 'Ali Tarakzi',
           description: "Master student",
           section: "People",handler: () => {
@@ -216,39 +224,34 @@ ninja.data = [{
           description: "Master student, Data Science Club organizer",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/brutenis-gliwa/";
+            },},{id: "people-emil-michels",
+          title: 'Emil Michels',
+          description: "Master student",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/emil-michels/";
             },},{id: "people-harshal-talsania",
           title: 'Harshal Talsania',
           description: "Master student",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/harshal-talsania/";
+            },},{id: "people-hendrik-tackenberg",
+          title: 'Hendrik Tackenberg',
+          description: "Student assistant",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/hendrik-tackenberg/";
+            },},{id: "people-julia-koch",
+          title: 'Julia Koch',
+          description: "Master student, research intern",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/julia-koch/";
             },},{id: "people-tom-krüger",
           title: 'Tom Krüger',
           description: "Master student",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/tom-krueger/";
-            },},{id: "people-ahmed-alkishki",
-          title: 'Ahmed Alkishki',
-          description: "Student assistant",
-          section: "People",handler: () => {
-              window.location.href = "/people/hiwi/ahmed-alkishki/";
-            },},{id: "people-hendrik-tackenberg",
-          title: 'Hendrik Tackenberg',
-          description: "Student assistant",
-          section: "People",handler: () => {
-              window.location.href = "/people/hiwi/hendrik-tackenberg/";
-            },},{id: "people-julia-koch",
-          title: 'Julia Koch',
-          description: "Master student, research intern",
-          section: "People",handler: () => {
-              window.location.href = "/people/hiwi/julia-koch/";
-            },},{id: "people-emil-michels",
-          title: 'Emil Michels',
-          description: "Master student",
-          section: "People",handler: () => {
-              window.location.href = "/people/students/emil-michels/";
             },},{id: "people-konstantin-frunzek",
           title: 'Konstantin Frunzek',
-          description: "Bachelor student",
+          description: "Student assistant",
           section: "People",handler: () => {
               window.location.href = "/people/students/konstantin-frunzek/";
             },},{id: "people-amin-mirzaei",
