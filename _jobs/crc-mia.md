@@ -16,8 +16,8 @@ In the context of a large-scale, interdisciplinary project ([DFG CRC on “Mater
 
 > Postdoc / senior PhD on Artificial Intelligence for Understanding Maternal Immune Activation
 
-- **How to apply:** Application portal will open by August 20th (announced here)
-- **Deadline:** Between August 31st and September 15th (TBA)
+- **How to apply:** [Application portal](https://stellenangebote.uni-marburg.de/jobposting/c153b1990559da7e2dff1745af9fd64b7ad264cd0)
+- **Deadline:** September 14th
 
 ## More Information
 
