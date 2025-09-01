@@ -32,7 +32,9 @@ nav_order: 99
 
 <div class="jobs">
     {% for job in site.jobs %}
-    {% include jobs.liquid %}
+        {% if job.category == "open" %}
+            {% include jobs.liquid %}
+        {% endif %}
     {% endfor %}
 </div>
 

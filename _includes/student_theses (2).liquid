@@ -1,0 +1,23 @@
+<!-- _includes/student_theses.liquid -->
+<a href="{% if thesis.redirect %}{{ thesis.redirect }}{% else %}{{ thesis.url | relative_url }}{% endif %}">
+  <div class="card hoverable">
+    <div style="display: flex; flex-direction: row;">
+      <div style="flex: 0 0 20%;">
+        {%- if thesis.thumbnail %}
+          <img class="thumbnail" src="{{ thesis.thumbnail}}">
+        {%- endif %}
+      </div>
+      <div class="card-body" style="min-height: 10em">
+        <div>
+          <h2 class="card-title text-lowercase">{{ thesis.title }}</h2>
+          {%- if thesis.type %}
+            <p class="card-text text-uppercase">{{ thesis.type }}</p>
+          {%- endif %}
+          <p class="card-text">
+            {{ thesis.description }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>

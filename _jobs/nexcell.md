@@ -5,7 +5,7 @@ description: "2 Postdoc and 2 PhD positions, <strong>Deadline: August 31th</stro
 thumbnail: /assets/img/projects/nexcell.png
 time:
 importance: 1
-category: open
+category: closed
 ---
 
 <img src="/assets/img/projects/nexcell.png" style="float: right; width:30%; padding: 1em"/>
