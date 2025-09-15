@@ -5,7 +5,7 @@ description: "Postdoc, <strong>Deadline: September 14th</strong>"
 thumbnail: /assets/img/projects/crc-mia.png
 time:
 importance: 1
-category: open
+category: closed
 ---
 
 <div style="float: right; width:50%; padding: 1em; padding-top: 0em;">
