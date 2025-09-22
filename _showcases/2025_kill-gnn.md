@@ -5,6 +5,8 @@ title-short: kill-GNN
 description: "Informed, but Not Always Improved: Challenging the Benefit of Background Knowledge in GNNs"
 arxiv: https://arxiv.org/abs/2505.11023
 arxiv-badge: "2505.11023"
+github: https://github.com/bckrlab/kill-gnn
+github-badge: kill-gnn
 img: /assets/img/p/2025_kill-gnn/ga.png
 permalink: /p/kill-gnn/
 ---
@@ -17,6 +19,5 @@ In complex and low-data domains such as biomedical research, incorporating backg
 
 ## Links
 
-Paper: [https://arxiv.org/abs/2505.11023](https://arxiv.org/abs/2505.11023)
-
-Code: Will be shared soon.
+- Paper: [https://arxiv.org/abs/2505.11023](https://arxiv.org/abs/2505.11023)
+- Code: [https://github.com/bckrlab/kill-gnn](https://github.com/bckrlab/kill-gnn)
