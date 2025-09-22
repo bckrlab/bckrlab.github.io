@@ -7,7 +7,7 @@ first_name: Becker
 middle_name:
 last_name: Lab
 contact_note: >
-  You can reach us the best by email.
+  You can reach us best by email.
 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Becker Lab
