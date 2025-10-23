@@ -355,6 +355,11 @@ ninja.data = [{
           description: "XAI for Alzheimer&#39;s Disease detection",
           section: "Showcases",handler: () => {
               window.location.href = "/p/ad-fidelity/";
+            },},{id: "showcases-cytodatagen",
+          title: 'cytodatagen',
+          description: "A Python package for generating synthetic flow cytometry data",
+          section: "Showcases",handler: () => {
+              window.location.href = "/p/cytodatagen/";
             },},{id: "showcases-kill-gnn",
           title: 'Kill-GNN',
           description: "Informed, but Not Always Improved: Challenging the Benefit of Background Knowledge in GNNs",
