@@ -212,7 +212,7 @@ ninja.data = [{
           section: "News",},{id: "news-come-join-us-we-are-looking-for-a-postdoc-senior-phd-student-to-work-in-the-context-of-the-crc-mia-on-ai-for-understanding-maternal-immune-activation-during-pregnancy-the-application-deadline-is-september-14h-2025",
           title: '🧑‍🤝‍🧑: Come join us! We are looking for a Postdoc (senior PhD student)...',
           description: "",
-          section: "News",},{id: "news-visiting-wildtracks-belize-we-are-visiting-wilttracks-in-belize-to-work-on-manatee-animal-movement-tracking-this-is-a-wildly-unique-experience-where-we-can-combine-ai-with-animal-preservation-they-always-look-for-volunteers",
+          section: "News",},{id: "news-visiting-wildtracks-belize-we-are-visiting-wilttracks-in-belize-to-work-on-manatee-animal-movement-tracking-this-is-a-wildly-unique-experience-where-we-can-combine-ai-to-study-animal-movement-behavior-for-the-rehabilitation-and-preservation-of-endangered-species-ps-wildtracks-is-always-looking-for-volunteers",
           title: '🇧🇿 Visiting WildTracks, Belize: We are visiting WiltTracks in Belize to work on...',
           description: "",
           section: "News",},{id: "news-launch-of-the-future-research-alliance-nexcell-we-are-excited-to-pioneer-ai-digital-twins-for-next-gen-cell-and-gene-therapy-in-a-large-scale-collaborative-project-together-with-miltenyi-biotec-rowemed-ag-and-researcher-from-rostock-university-haiml-umr-ag-junghans-additional-information-rostock-university-news-press-release-mv",
