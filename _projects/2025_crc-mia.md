@@ -11,7 +11,7 @@ category: funded
 <img src="/assets/img/projects/crc-mia.png" style="width:100%; padding: 1em; padding-top: 0em;"/>
 <img src="/assets/img/projects/crc-mia_overview.png" style="width:100%; padding: 1em; padding-top: 0em;"/>
 </div>
-The CRC 1713 (initial funding period: 2025 - 2029) is focused on elucidating the disparity between the intricately calibrated maternal
+The [CRC 1713 (initial funding period: 2025 - 2029)](https://www.uke.de/english/crc/crc1713) is focused on elucidating the disparity between the intricately calibrated maternal
 immune adaptation that has evolved to facilitate tolerance to foreign foetal antigens during normally
 progressing pregnancies - and the maternal immune activation (MIA) instigated by environmental
 challenges that pregnant women face today. We propose that this dichotomy contributes to the
@@ -42,5 +42,5 @@ allow us to define the tipping point for the onset of MIA. In the long term, we 
 into the development of MIA monitoring tools to identify pregnancies at risk for complications.
 
 <img src="/assets/img/projects/crc-mia_logos.png" style="float: left; height:10em; padding: 1em; padding-top: 0em;"/> 
-The CRC 1713 is a large-scale, interdisciplinary, and highly collaborative project coordinated by the [UKE Hamburg](https://www.uke.de/) and [Hamburg University](https://www.uni-hamburg.de/).
+The [CRC 1713](https://www.uke.de/english/crc/crc1713) is a large-scale, interdisciplinary, and highly collaborative project coordinated by the [UKE Hamburg](https://www.uke.de/) and [Hamburg University](https://www.uni-hamburg.de/).
 This sub-project is a collaboration with [Petra Arck's Lab](https://www.arcklab.de/) (also leading the CRC) und [Jörg Heeren](https://www.uke.de/english/physicians-and-scientists/wissenschaftlerprofilseite_j%C3%B6rg_heeren.html).
