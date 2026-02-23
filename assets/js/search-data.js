@@ -282,6 +282,11 @@ ninja.data = [{
           description: "Research assistant and PhD student, Data Science Club organizer",
           section: "People",handler: () => {
               window.location.href = "/people/team/bjarne-hiller/";
+            },},{id: "people-felix-blanke",
+          title: 'Felix Blanke',
+          description: "Research assistant and PhD student",
+          section: "People",handler: () => {
+              window.location.href = "/people/team/felix-blanke/";
             },},{id: "people-julia-prahl",
           title: 'Julia Prahl',
           description: "Admin",
