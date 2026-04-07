@@ -5,7 +5,7 @@ description: preprocessing the single-cell gene expression data and applying mac
 thumbnail: /assets/img/single_cell.jpg
 time:
 importance: 1
-category: open
+category: closed
 ---
 
 We are specifically hiring to develop pipelines for preprocessing, machine learning, pattern identification, clustering, and training predictive models based on single-cell gene expression data.
