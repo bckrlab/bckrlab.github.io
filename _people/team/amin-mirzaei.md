@@ -5,7 +5,6 @@ description: Research assistant and PhD student
 img: /assets/img/people/amin-mirzaei.jpg
 importance: 11
 category: member
-room: 270
 email: mohammad.mirzaei@uni-rostock.de
 ---
 
