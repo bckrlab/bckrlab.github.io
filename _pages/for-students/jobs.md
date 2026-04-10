@@ -12,6 +12,7 @@ horizontal: false
 <!-- > **We are hiring!** 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are currently looking for **several student assistants** with an interest in machine learning. -->
 
 > **We are currently not hiring for paid positions.** However, we are always working on exciting projects. If you are interested in getting involved in some cutting-edge machine learning research or getting your hands dirty programming some fun side projects, please <a href="mailto:{{ site.email }}">
+
         contact us.
     </a>
 
