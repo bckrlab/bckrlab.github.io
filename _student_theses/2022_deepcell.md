@@ -6,7 +6,7 @@ description: "Geometric deep learning for single cell analysis for CyTOF data"
 thumbnail: /assets/img/theses/deepcell_tsne.png
 img: /assets/img/projects/deepcell_tsne.png
 importance: 1
-category: open
+category: closed
 source: https://docs.google.com/document/d/1XJ0NYZ6hjlEkEZ5jiZqxGeYICPP2c_p0JZRQKQkmLcQ/edit
 ---
 

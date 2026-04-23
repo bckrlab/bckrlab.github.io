@@ -5,7 +5,7 @@ type: Bachelor & Master
 description: Virtual Reality-based citation management via spatial mnemonics
 thumbnail: /assets/img/metaquestpro.jpg
 importance: 1
-category: open
+category: closed
 source:
 ---
 
