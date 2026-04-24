@@ -437,6 +437,11 @@ ninja.data = [{
           description: "How are the most exceptional parts of my dataset characterized?",
           section: "Student_theses",handler: () => {
               window.location.href = "/for-students/theses/2024_parallel_subgroup_discovery/";
+            },},{id: "student_theses-performance-mining",
+          title: 'Performance Mining',
+          description: "On which part of the dataset do (foundation) models work best?",
+          section: "Student_theses",handler: () => {
+              window.location.href = "/for-students/theses/2026_performance-mining/";
             },},{id: "student_theses-your-own-idea",
           title: 'Your own idea',
           description: "Come talk to us!",
