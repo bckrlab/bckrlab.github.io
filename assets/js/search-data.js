@@ -280,6 +280,11 @@ ninja.data = [{
           description: "System Engineer",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/peter-eschholz/";
+            },},{id: "people-syed-abdul-haseeb-qadri",
+          title: 'Syed Abdul Haseeb Qadri',
+          description: "Student assistant, Master student",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/syed-abdul-haseeb-qadri/";
             },},{id: "people-tom-krüger",
           title: 'Tom Krüger',
           description: "Master student",
