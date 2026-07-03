@@ -60,7 +60,13 @@ latest_posts:
 
 We are a research group we aim to **impact high-stake real-world problem settings** at the intersection of **medicine, environmental change, and human behavior** through **artificial intelligence and machine learning**.
 
-<!-- > 🧑‍🤝‍🧑📢 We have [open Postdoc and PhD positions](/join-us). Come join us! -->
+<!-- If there are more than one open job, show this: -->
+{% assign open_jobs = site.jobs | where: "category", "open" %}
+{% if open_jobs.size > 0 %}
+<div style="background:#e6f2ff;border-left:6px solid #4da6ff;padding:1rem;margin-bottom:1rem;border-radius:6px">
+  <p style="margin:0;font-size:1.1rem;color:#03306f">🧑‍🤝‍🧑📢 <strong style="font-size:1.15rem">We have open Postdoc and PhD positions</strong> — <a href="/join-us">See details & apply</a></p>
+</div>
+{% endif %}
 
 <div style="padding-bottom: 1em">
 <a href="/projects/2025_crc-mia">

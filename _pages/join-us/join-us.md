@@ -26,7 +26,12 @@ nav_order: 99
 
 <!-- > We currently do not have open Postdoc or PhD positions. Please check back here regularly, as we may post new openings in the near future! -->
 
-> 👩👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We have **open PhD and Postdoc positions**!
+<!-- If there are more than one open job, show this: -->
+<!-- {% assign open_jobs = site.jobs | where: "category", "open" %}
+{% if open_jobs.size > 1 %}
+👩👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We have **open PhD and/or Postdoc positions**!
+{% endif %} -->
+
 
 <!-- > 👩‍⚕️🙋‍♂️ For **student assistant positions**, please look [here](/for-students/jobs/). -->
 
@@ -40,10 +45,14 @@ nav_order: 99
 
 <br/>
 
-## Contact Us!
+<!-- ## Contact Us!
 
-👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated **PhD students, postdocs, and student assistants** with an interest in developing artificial intelligence and machine learning for real-world problem settings. So, if there are no positions listed above, and you have your own ideas and are excited to work with us, please contact us! We are always happy to support your project proposals or stipends.
+👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated **PhD students, postdocs, and student assistants** with an interest in developing artificial intelligence and machine learning to make an impact in real-world problem settings. 
 
+If you have your own awesome ideas, please contact us! We are always happy to support your project proposals or stipends. -->
+
+
+<!-- 
 ## Research Focus
 
 Our focus lies on developing cutting-edge artificial intelligence and machine learning methods in high-impact application scenarios, e.g., in (bio-)medicine and environmental change.  
@@ -55,4 +64,4 @@ You will join a dynamic and ambitious group of highly motivated highly motivated
 
 We are committed create a friendly, supportive, team-oriented, and inclusive work environment with highly motivated colleagues. Diversity across all dimensions is a core value for our lab and a key contributor to our innovative research. Applicants from groups traditionally underrepresented in computer science and machine learning are strongly encouraged to apply.
 
-Our group has a strong commitment to translating research to actionable insights and applications with real-world impact and scalability. This is an excellent environment for candidates who are not only focused on participating in state-of-the-art academic research but are also interested in translating their work in industrial and entrepreneurial avenues.
+Our group has a strong commitment to translating research to actionable insights and applications with real-world impact and scalability. This is an excellent environment for candidates who are not only focused on participating in state-of-the-art academic research but are also interested in translating their work in industrial and entrepreneurial avenues. -->
