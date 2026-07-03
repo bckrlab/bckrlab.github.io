@@ -81,15 +81,25 @@ ninja.data = [{
           title: 'CRC MIA - AI for Understanding Maternal Immune Activation',
           description: "Postdoc, Deadline: September 14th",
           section: "Jobs",handler: () => {
-              window.location.href = "/join-us/jobs/crc-mia/";
+              window.location.href = "/join-us/jobs/archive/crc-mia/";
             },},{id: "jobs-nexcell-ai-for-optimizing-end-to-end-cell-processing-in-clinical-cell-therapy",
           title: 'NEXCELL - AI for Optimizing End‑To‑End Cell Processing in Clinical Cell Therapy',
           description: "2 Postdoc and 2 PhD positions, Deadline: August 31th",
           section: "Jobs",handler: () => {
-              window.location.href = "/join-us/jobs/nexcell/";
-            },},{id: "jobs-your-own-idea",
-          title: 'Your own idea',
-          description: "Come talk to us!",
+              window.location.href = "/join-us/jobs/archive/nexcell/";
+            },},{id: "jobs-phd-on-foundation-models-graph-and-geometric-deep-learning-causal-modeling",
+          title: 'PhD on Foundation Models, Graph and Geometric Deep Learning, Causal Modeling',
+          description: "PhD Student: Deadline: July 26th",
+          section: "Jobs",handler: () => {
+              window.location.href = "/join-us/jobs/phd/";
+            },},{id: "jobs-postdoc-on-foundation-models-graph-and-geometric-deep-learning-causal-modeling",
+          title: 'Postdoc on Foundation Models, Graph and Geometric Deep Learning, Causal Modeling',
+          description: "Postdoc: Deadline: July 26th",
+          section: "Jobs",handler: () => {
+              window.location.href = "/join-us/jobs/postdoc/";
+            },},{id: "jobs-your-own-project-contact-us",
+          title: 'Your own project? Contact us!',
+          description: "We love working with highly motivated postdocs and PhD students who are passionate about developing artificial intelligence and machine learning methods that make an impact in real-world problem settings. If you have exciting research ideas of your own, please get in touch. We are always happy to support strong project proposals, fellowship applications, and stipend applications.",
           section: "Jobs",handler: () => {
               window.location.href = "/join-us/jobs/your-project/";
             },},{id: "news-martin-becker-starts-as-jun-professor-at-the-university-of-rostock-germany-heading-the-chair-of-intelligent-data-analytics",
