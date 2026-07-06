@@ -25,7 +25,7 @@ The position also offers the opportunity to collaborate closely with [world-lead
   <strong>Open position:</strong> Postdoctoral Researcher in Foundation Models, Graph and Geometric Deep Learning, Causal Modeling
   <p style="margin:0;font-size:1.1rem;color:#03306f">
   <ul>
-  <li><strong>For more information and how to apply:</strong> <a href="https://stellenangebote.uni-marburg.de/jobposting/b0486d3bf45471939add05ea942d31c6ea293d0d">Application portal</a></li>
+  <li><strong>For more information and how to apply:</strong> <a href="https://stellenangebote.uni-marburg.de/jobposting/0010c778e153e4312896c8ca449b4fbd48a6eb77">Application portal</a></li>
   <li><strong>Deadline:</strong> July 26th</li>
   </ul>
   </p>
