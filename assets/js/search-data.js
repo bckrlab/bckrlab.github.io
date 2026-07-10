@@ -405,6 +405,11 @@ ninja.data = [{
           description: "subgroup-level model performance evaluation",
           section: "Showcases",handler: () => {
               window.location.href = "/p/subroc/";
+            },},{id: "showcases-cytobert",
+          title: 'CytoBERT',
+          description: "A foundation model for flow cytometry data",
+          section: "Showcases",handler: () => {
+              window.location.href = "/p/cytobert/";
             },},{id: "student_jobs-vibe-behavior-monitoring-in-virtual-reality-for-profiling-cognitive-decline",
           title: 'ViBE: Behavior monitoring in virtual reality for profiling cognitive decline',
           description: "Develop a VR framework for capturing sensor data using a Meta Quest Pro and soon an Apple Vision Pro.",
