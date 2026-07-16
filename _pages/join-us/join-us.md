@@ -32,12 +32,13 @@ nav_order: 99
 👩👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We have **open PhD and/or Postdoc positions**!
 {% endif %} -->
 
-
 <!-- > 👩‍⚕️🙋‍♂️ For **student assistant positions**, please look [here](/for-students/jobs/). -->
 
 <div class="jobs">
     {% for job in site.jobs %}
-    {% include jobs.liquid %}
+        {% if job.category == "open" %}
+            {% include jobs.liquid %}
+        {% endif %}
     {% endfor %}
 </div>
 
@@ -45,15 +46,14 @@ nav_order: 99
 
 <!-- ## Contact Us!
 
-👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated **PhD students, postdocs, and student assistants** with an interest in developing artificial intelligence and machine learning to make an impact in real-world problem settings. 
+👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated **PhD students, postdocs, and student assistants** with an interest in developing artificial intelligence and machine learning to make an impact in real-world problem settings.
 
 If you have your own awesome ideas, please contact us! We are always happy to support your project proposals or stipends. -->
 
-
-<!-- 
+<!--
 ## Research Focus
 
-Our focus lies on developing cutting-edge artificial intelligence and machine learning methods in high-impact application scenarios, e.g., in (bio-)medicine and environmental change.  
+Our focus lies on developing cutting-edge artificial intelligence and machine learning methods in high-impact application scenarios, e.g., in (bio-)medicine and environmental change.
 In this context, [our projects cover a wide variety of directions and applications](/projects).
 
 ## Our Mission and Values
