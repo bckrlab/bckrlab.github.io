@@ -1,3 +1,8 @@
+# just to disable github prettier warnings for now
+_pages/**/*.md
+_jobs/**/*.md
+_student_theses/**/*.md
+
 **/*.map
 **/*.min.css
 **/*.min.js
