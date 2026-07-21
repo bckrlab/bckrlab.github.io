@@ -410,6 +410,11 @@ ninja.data = [{
           description: "A foundation model for flow cytometry data",
           section: "Showcases",handler: () => {
               window.location.href = "/p/cytobert/";
+            },},{id: "showcases-nedis-network-based-disruption-analysis-of-biological-coordination",
+          title: 'NeDis: Network-based disruption analysis of biological coordination',
+          description: "network-based disruption analysis of biological coordination",
+          section: "Showcases",handler: () => {
+              window.location.href = "/p/nedis/";
             },},{id: "student_jobs-vibe-behavior-monitoring-in-virtual-reality-for-profiling-cognitive-decline",
           title: 'ViBE: Behavior monitoring in virtual reality for profiling cognitive decline',
           description: "Develop a VR framework for capturing sensor data using a Meta Quest Pro and soon an Apple Vision Pro.",
@@ -471,13 +476,6 @@ ninja.data = [{
           section: "Student_theses",handler: () => {
               window.location.href = "/for-students/theses/2042_other/";
             },},{
-        id: 'social-bluesky',
-        title: 'Bluesky',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://bsky.app/profile/mgbckr.bsky.social", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -492,6 +490,13 @@ ninja.data = [{
           window.open("https://github.com/bckrlab", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/mgbckr", "_blank");
+        },
+      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
@@ -499,25 +504,11 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0003-4296-3481", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=n99pDOAAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/mgbckr", "_blank");
         },
       },{
       id: 'light-theme',
