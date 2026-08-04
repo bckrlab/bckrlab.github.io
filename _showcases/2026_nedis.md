@@ -34,7 +34,7 @@ Among others the funding for this study was in part provided by the BMBF (01IS22
 
 ## Resources
 
-- Paper: TBA (Cell Patterns)
+- Paper: [Cell Patterns](https://www.sciencedirect.com/science/article/pii/S2666389926001273)
 - Code Repository: [https://github.com/bckrlab/nedis](https://github.com/bckrlab/nedis)
 - Zenodo ressourced:
     - Code: [https://zenodo.org/records/19352950](https://zenodo.org/records/19352950)
