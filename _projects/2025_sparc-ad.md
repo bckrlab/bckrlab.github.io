@@ -9,7 +9,7 @@ category: funded
 
 <img src="/assets/img/projects/sparc-ad.jpg" style="float: right; width:70%; padding: 1em"/>
 
-Today, more than 50 million people worldwide are affected by dementia and neurodegenerative diseases. For Alzheimer’s disease alone, projections suggest that around 150 million people could be affected by 2050. While antibody-based pharmacotherapies can remove amyloid deposits from patients’ brains, their effects are only moderate. As a result, there is currently no effective treatment or cure available. This gap in knowledge is largely due to technological limitations in characterizing structurally diverse amyloid species (protein structures) and their precursors in complex human tissues.
+Today, more than 50 million people worldwide are affected by dementia and neurodegenerative diseases. For Alzheimer's disease alone, projections suggest that around 150 million people could be affected by 2050. While antibody-based pharmacotherapies can remove amyloid deposits from patients' brains, their effects are only moderate. As a result, there is currently no effective treatment or cure available. This gap in knowledge is largely due to technological limitations in characterizing structurally diverse amyloid species (protein structures) and their precursors in complex human tissues.
 
 The aim of the project is therefore to apply novel molecular imaging techniques to gain insights into the early detection of amyloid. To this end, multimodal and multiscale technologies will be integrated and analyzed using AI-based methods.
 
