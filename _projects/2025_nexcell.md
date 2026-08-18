@@ -5,6 +5,7 @@ description: "AI for Tracking and Optimizing End‑To‑End Cell Processing for 
 img: assets/img/projects/nexcell.png
 importance: 1
 category: funded
+start_date: 2026-01-01
 ---
 
 <img src="/assets/img/projects/nexcell.png" style="float: right; width:50%; padding: 1em"/>

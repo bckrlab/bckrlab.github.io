@@ -6,6 +6,7 @@ img: assets/img/projects/fingerprint.jpg
 importance: 1
 category: other
 source:
+start_date: 2023-01-01
 ---
 
 <img src="/assets/img/projects/fingerprint.jpg" style="float: right; width:70%; padding: 1em"/>

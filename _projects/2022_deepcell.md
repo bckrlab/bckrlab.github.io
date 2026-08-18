@@ -6,6 +6,7 @@ img: assets/img/projects/deepcell_tsne.png
 importance: 1
 category: other
 source: https://docs.google.com/document/d/1XJ0NYZ6hjlEkEZ5jiZqxGeYICPP2c_p0JZRQKQkmLcQ/edit
+start_date: 2022-01-01
 ---
 
 <img src="/assets/img/projects/deepcell_tsne.png" style="float: right; width:70%; padding: 1em; background-color: white;"/>

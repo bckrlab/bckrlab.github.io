@@ -5,6 +5,7 @@ description: "Behavioral Plasticity in a Changing World: Biologging as a Key to 
 img: assets/img/projects/vebita.png
 importance: 1
 category: funded
+start_date: 2027-01-01
 ---
 
 <img src="/assets/img/projects/vebita.png" style="float: right; width:30%; padding: 1em"/>

@@ -5,6 +5,7 @@ description: "Spectroscopic Profiling for Alzheimer's Recognition and Characteri
 img: assets/img/projects/sparc-ad_square.png
 importance: 1
 category: funded
+start_date: 2026-01-01
 ---
 
 <img src="/assets/img/projects/sparc-ad.jpg" style="float: right; width:70%; padding: 1em"/>
