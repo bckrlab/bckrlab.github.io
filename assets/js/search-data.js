@@ -243,6 +243,9 @@ ninja.data = [{
           section: "News",},{id: "news-want-to-find-submodules-in-correlation-that-change-over-time-or-conditions-this-is-often-interesting-in-biomedical-problem-settings-and-multiomics-analyses-e-g-of-pregnancy-or-preeclampisa-check-out-our-paper-network-based-disruption-analysis-of-biological-coordination-recently-published-in-cell-patterns",
           title: '📚 Want to find submodules in correlation that change over time or conditions?...',
           description: "",
+          section: "News",},{id: "news-vebita-how-do-animals-adapt-to-global-change-we-are-looking-forward-to-soon-starting-the-vebita-loewe-research-cluster-on-behavioral-plasticity-in-a-changing-world-biologging-as-a-key-to-understanding-animal-adaptability-together-with-many-amazing-partners-including-senckenberg-s-for-which-funding-was-recently-announced-by-loewe",
+          title: '🥳 VEBITA: How do animals adapt to global change? We are looking forward...',
+          description: "",
           section: "News",},{id: "people-ahmed-alkishki",
           title: 'Ahmed Alkishki',
           description: "Student assistant",
@@ -383,6 +386,11 @@ ninja.data = [{
           description: "Spectroscopic Profiling for Alzheimer&#39;s Recognition and Characterization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2025_sparc-ad/";
+            },},{id: "projects-vebita",
+          title: 'VEBITA',
+          description: "Behavioral Plasticity in a Changing World: Biologging as a Key to Understanding Animal Adaptability",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2026_vebita/";
             },},{id: "showcases-evolving-markov-chains-emcs",
           title: 'Evolving Markov Chains (EMCs)',
           description: "Evolving Markov Chains",
