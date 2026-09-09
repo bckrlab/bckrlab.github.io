@@ -416,6 +416,11 @@ ninja.data = [{
           description: "subgroup-level model performance evaluation",
           section: "Showcases",handler: () => {
               window.location.href = "/p/subroc/";
+            },},{id: "showcases-bk-buster",
+          title: 'BK-Buster',
+          description: "Informed, but Not Always Improved",
+          section: "Showcases",handler: () => {
+              window.location.href = "/p/bk-buster/";
             },},{id: "showcases-cytobert",
           title: 'CytoBERT',
           description: "A foundation model for flow cytometry data",
