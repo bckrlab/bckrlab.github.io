@@ -7,7 +7,7 @@ nav: false
 nav_order: 5
 horizontal: false
 ---
-## Winter Term 26
+## Winter Term 26/27
 
 - [Foundation Models Seminar: Emerging Trends and Recent Advances](https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=108766&periodId=5622)
 
@@ -15,10 +15,21 @@ horizontal: false
 
 ## Summer Term 26
 
-- [Foundation Models](nhttps://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=102032&periodId=5621\n\nDetails)
+- [Foundation Models](https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=102032&periodId=5621)
 
-## Winter Term 25
-- [Machine Learning with Graphs](nhttps://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=97838&periodId=5620\n\nShow)
+## Winter Term 25/26
+- [Machine Learning with Graphs](
+    https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=97838&periodId=5620
+)
+## Summer Term 25
+- [Seminar: Innovative Applications of Artificial Intelligence](
+https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=95921&periodId=201)
+
+- [Seminar: Knowledge-Centric Artificial Intelligence](
+https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=95920&periodId=201)
+
+## Winter Term 24/25
+- [Machine Learning with Graphs](https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=97838&periodId=5620)
 
 ## Summer Term 24
 
