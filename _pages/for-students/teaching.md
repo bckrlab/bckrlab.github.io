@@ -7,10 +7,6 @@ nav: false
 nav_order: 5
 horizontal: false
 ---
-## Winter Term 26
-
-- [Foundation Models Seminar: Emerging Trends and Recent Advances](https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=108766&periodId=5622)
-
 
 ## Summer Term 24
 
