@@ -343,7 +343,7 @@ ninja.data = [{
           title: 'THEMIS',
           description: "Leveraging Background Knowledge for Understanding and Modeling Complex Systems (BMBF Junior Research Group)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2022_themis/";
+              window.location.href = "/projects/themis/";
             },},{id: "projects-multi-omics-fingerprint",
           title: 'Multi-Omics Fingerprint',
           description: "Latent-Representations of Multi-Omics Data to Derive a Biological Fingerprint",
