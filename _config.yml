@@ -253,6 +253,10 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
+# Redirects: GitHub Pages does not use redirects.json, so do not publish it
+redirect_from:
+  json: false
+
 # Sitemap settings
 defaults:
   - scope:
