@@ -58,7 +58,7 @@ latest_posts:
 </div>
 -->
 
-We are a research group we aim to **impact high-stake real-world problem settings** at the intersection of **medicine, environmental change, and human behavior** through **artificial intelligence and machine learning**.
+We are a research group that aims to **impact high-stakes real-world problem settings** at the intersection of **medicine, environmental change, and human behavior** through **artificial intelligence and machine learning**.
 
 <!-- If there are more than one open job, show this: -->
 {% assign open_jobs = site.jobs | where: "category", "open" %}

@@ -11,7 +11,7 @@ email: martin.becker@* (add university domain)
 # quote:
 ---
 
-I am passionate about highly collaborative projects and research that impact high-stake real-world problem settings at the intersection of medicine, environmental change, and human behavior through artificial intelligence and machine learning.
+I am passionate about highly collaborative projects and research that impact high-stakes real-world problem settings at the intersection of medicine, environmental change, and human behavior through artificial intelligence and machine learning.
 
 In this context I am interested in methods from multi-modal learning, network analysis, and exceptional model mining to Bayesian modeling, deep learning, representation learning, explainable AI, and human computer interaction.
 

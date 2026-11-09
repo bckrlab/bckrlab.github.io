@@ -11,7 +11,7 @@ horizontal: false
 
 - [Foundation Models Seminar: Emerging Trends and Recent Advances](https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=108766&periodId=5622)
 
-- [Machine Learning with Graphs](https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&_flowExecutionKey=e21s1)
+- [Machine Learning with Graphs](https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=97838&periodId=5622)
 
 ## Summer Term 26
 
@@ -33,7 +33,7 @@ https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView
 
 ## Winter Term 24/25
 
-- [Machine Learning with Graphs](https://marvin.uni-marburg.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=97838&periodId=5620)
+- Machine Learning with Graphs
 
 ## Summer Term 24
 
