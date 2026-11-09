@@ -5,7 +5,7 @@ description: Research assistant and PhD student
 img: /assets/img/people/kutalmis-coskun.png
 importance: 11
 category: member
-email: kutalmis.coskun@uni-rostock.de
+email: kutalmis.coskun@uni-marburg.de
 quote: Nothing is more practical than a good theory.
 ---
 
