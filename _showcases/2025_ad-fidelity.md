@@ -6,7 +6,7 @@ description: XAI for Alzheimer's Disease detection
 date: 2025-03-02
 doi-url: https://doi.org/10.1007/978-3-658-47422-5_18
 doi-badge: 10/n87w
-github: https://github.com/chillerb/ad-fidelity
+github: https://github.com/bckrlab/ad-fidelity
 github-badge: ad-fidelity
 img: /assets/img/p/2025_ad-fidelity/feature-attribution.png
 permalink: /p/ad-fidelity/
@@ -16,7 +16,7 @@ permalink: /p/ad-fidelity/
 <!--
 Now handled by showcase layout
 [![Conference Paper Badge](https://img.shields.io/badge/doi-10%2Fn87w-blue?style=flat&logo=doi)](https://doi.org/10.1007/978-3-658-47422-5_18)
-[![GitHub Badge](https://img.shields.io/badge/GitHub-ad--fidelity-black?style=flat&logo=github)](https://github.com/chillerb/ad-fidelity)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-ad--fidelity-black?style=flat&logo=github)](https://github.com/bckrlab/ad-fidelity)
 -->
 
 > Can we trust explanations of neural network decisions in Alzheimer's Disease (AD) detection?
@@ -102,11 +102,11 @@ Apparently, it works like this:
 - reveal.js is used to render the presentation
 
 
-<iframe src="https://github.com/chillerb/ad-fidelity/blob/main/docs/presentations/2025-03-09_bvm/2025-bvm.pdf?raw=true" width="100%" height="600px"></iframe>
-https://raw.githubusercontent.com/chillerb/ad-fidelity/refs/heads/main/docs/presentations/2025-03-09_bvm/2025-bvm.pdf
+<iframe src="https://github.com/bckrlab/ad-fidelity/blob/main/docs/presentations/2025-03-09_bvm/2025-bvm.pdf?raw=true" width="100%" height="600px"></iframe>
+https://raw.githubusercontent.com/bckrlab/ad-fidelity/refs/heads/main/docs/presentations/2025-03-09_bvm/2025-bvm.pdf
 -->
 
-The results have been presented at the [German Conference on Medical Image Computing (BVM) 2025](https://www.bvm-conf.org/) ([slides, PDF](https://github.com/chillerb/ad-fidelity/blob/main/docs/presentations/2025-03-09_bvm/2025-bvm.pdf)).
+The results have been presented at the [German Conference on Medical Image Computing (BVM) 2025](https://www.bvm-conf.org/) ([slides, PDF](https://github.com/bckrlab/ad-fidelity/blob/main/docs/presentations/2025-03-09_bvm/2025-bvm.pdf)).
 
 ## Acknowledgements
 
