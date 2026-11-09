@@ -62,6 +62,9 @@
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {%- if author.prefix and author.prefix != '' -%}
+          {%- assign author_last_html = author.prefix | append: ' ' | append: author_last_html -%}
+        {%- endif -%}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
@@ -110,7 +113,11 @@
         {%- endif -%}
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' %}
+          {% if author.prefix and author.prefix != '' %}
+            {% assign more_authors_show = more_authors_show | append: author.prefix | append: ' ' %}
+          {% endif %}
+          {% assign more_authors_show = more_authors_show | append: author.last %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
@@ -160,6 +167,8 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+    {% assign entrymonth = '' %}
+    {% assign entryyear = '' %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}

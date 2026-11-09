@@ -17,6 +17,6 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography -f bibsonomy --group_by year --group_order descending %}
+{% bibliography -f zotero --group_by year --group_order descending %}
 
 </div>
