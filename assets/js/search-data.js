@@ -279,16 +279,6 @@ ninja.data = [{
           description: "Master student, research intern",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/julia-koch/";
-            },},{id: "people-julia-prahl",
-          title: 'Julia Prahl',
-          description: "Admin",
-          section: "People",handler: () => {
-              window.location.href = "/people/alumni/julia-prahl/";
-            },},{id: "people-peter-eschholz",
-          title: 'Peter Eschholz',
-          description: "System Engineer",
-          section: "People",handler: () => {
-              window.location.href = "/people/alumni/peter-eschholz/";
             },},{id: "people-tom-krüger",
           title: 'Tom Krüger',
           description: "Master student",
