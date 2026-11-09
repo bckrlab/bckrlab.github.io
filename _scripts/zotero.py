@@ -36,7 +36,9 @@ GROUP_ID = 4942786  # group library "bckrlab"
 COLLECTION_KEY = "ER9DDPEP"  # collection "publications"
 OUTPUT = Path(__file__).resolve().parent.parent / "_bibliography" / "zotero.bib"
 
-DROP_FIELDS = {"file", "annote", "urldate"}
+# "type" (e.g. "Doctoral Thesis") is never shown and would overwrite the entry type
+# (e.g. phdthesis) in jekyll-scholar, which hides the university of a thesis
+DROP_FIELDS = {"file", "annote", "urldate", "type"}
 PAGE_SIZE = 100
 
 # "Key: value" lines in Zotero's Extra field (e.g. "_eprint: ...", "version: 1", "tex.address: ...")
