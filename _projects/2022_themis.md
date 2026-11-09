@@ -32,3 +32,12 @@ The methods developed will thus form the basis for gaining new insights in a wid
 
 <!--
 Die entwickelten Methoden werden so die Grundlage bilden, neue Erkenntnisse in unterschiedlichsten Anwendungsszenarien zu gewinnen und vorhandenes Wissen optimal für nachvollziehbares maschinelles Lernen zu nutzen. Mittelfristig soll dies die praktische Anwendung des wissensbasierten maschinellen Lernens in einer Vielzahl von Branchen ermöglichen wie etwa in der Umwelt-modellierung, Verhaltensanalyse oder in der biomedizinischen Entwicklung.  -->
+
+## Publications
+
+<!-- Generated from Zotero: items tagged "project:themis" (see _scripts/zotero.py) -->
+<div class="publications">
+
+{% bibliography -f zotero --group_by none -q @*[projects~=themis]* %}
+
+</div>

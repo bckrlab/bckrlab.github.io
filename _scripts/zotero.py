@@ -18,6 +18,9 @@ What gets cleaned up on the way:
 - Items without a DOI get an "HTML" button that links to their URL.
 - Conference papers without a proceedings title show their conference name.
 - Duplicates (same title and DOI) are dropped with a warning.
+- Zotero tags of the form "project:<name>" (e.g. "project:themis") become a
+  "projects" field instead of keywords. A project page lists its publications
+  with {% bibliography -f zotero --group_by none -q @*[projects~=<name>]* %}.
 """
 
 import json
@@ -38,6 +41,9 @@ PAGE_SIZE = 100
 
 # "Key: value" lines in Zotero's Extra field (e.g. "_eprint: ...", "version: 1", "tex.address: ...")
 METADATA_LINE = re.compile(r"^\s*(\\?_)?[A-Za-z][A-Za-z0-9 .\\_-]*:\s")
+
+# Zotero tags that assign an item to a project page, e.g. "project:themis"
+PROJECT_TAG = re.compile(r"^project:([a-z0-9-]+)$")
 
 
 def fetch_items():
@@ -103,9 +109,24 @@ def clean_note(value):
     return "{" + "\n".join(lines) + "}" if lines else None
 
 
+def project_tags(item):
+    tags = [tag["tag"].strip() for tag in item["data"].get("tags", [])]
+    for tag in tags:
+        if tag.lower().startswith("project:") and not PROJECT_TAG.match(tag):
+            print(f"Ignoring malformed project tag {tag!r} on {item['key']}", file=sys.stderr)
+    return {tag: PROJECT_TAG.match(tag).group(1) for tag in tags if PROJECT_TAG.match(tag)}
+
+
+def clean_keywords(value, drop):
+    # Zotero's BibTeX export joins all tags with ", "
+    keywords = [keyword for keyword in value[1:-1].split(", ") if keyword not in drop]
+    return "{" + ", ".join(keywords) + "}" if keywords else None
+
+
 def to_entry(item):
     entry_type, key, fields = parse_bibtex(item["bibtex"])
     names = {name for name, _ in fields}
+    projects = project_tags(item)
     cleaned = []
     for name, value in fields:
         if name in DROP_FIELDS:
@@ -114,12 +135,18 @@ def to_entry(item):
             value = clean_note(value)
             if value is None:
                 continue
+        if name == "keywords":
+            value = clean_keywords(value, projects)
+            if value is None:
+                continue
         cleaned.append((name, value))
         if name == "url" and "doi" not in names and "html" not in names:
             cleaned.append(("html", value))
     conference = item["data"].get("conferenceName")
     if entry_type == "inproceedings" and "booktitle" not in names and conference:
         cleaned.append(("booktitle", "{" + re.sub(r"([&%$#_{}])", r"\\\1", conference) + "}"))
+    if projects:
+        cleaned.append(("projects", "{" + ", ".join(sorted(set(projects.values()))) + "}"))
     body = ",\n".join(f"  {name} = {value}" for name, value in cleaned)
     return key, f"@{entry_type}{{{key},\n{body}\n}}\n"
 
