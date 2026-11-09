@@ -39,6 +39,63 @@ details.info-box {
 div.badges {
   margin-bottom: 1em;
   margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+/* Locally rendered badges in the style of shields.io "for-the-badge" */
+a.showcase-badge {
+  display: inline-flex;
+  align-items: stretch;
+  height: 28px;
+  font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &,
+  &:hover,
+  &:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &:hover {
+    filter: brightness(1.15);
+  }
+
+  span {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.9em;
+    color: #fff; // the theme sets a text color on every span
+  }
+
+  .showcase-badge-label {
+    background-color: #555;
+
+    i {
+      color: #fff;
+      font-size: 1.4em;
+      margin-right: 0.5em;
+      letter-spacing: 0;
+    }
+  }
+
+  &.showcase-badge-doi .showcase-badge-value {
+    background-color: #007ec6;
+  }
+
+  &.showcase-badge-github .showcase-badge-value {
+    background-color: #000;
+  }
+
+  &.showcase-badge-arxiv .showcase-badge-value {
+    background-color: #b31b1b;
+  }
 }
 
 .showcases {

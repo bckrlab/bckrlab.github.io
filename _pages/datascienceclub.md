@@ -217,7 +217,7 @@ nav_order: 23
 <div id="viz"></div>
 
 <div class="dsc-banner">
-    <strong>Next meeting</strong>: <a href="/assets/img/datascienceclub/date/event.ics" download="event.ics">T{% include next-dsc-meeting.txt %}, 17:00 Uhr, Konrad-Zuse-Haus, Room 116.</a> <strong>Bring your laptops!</strong>
+    <strong>Next meeting</strong>: <a href="/assets/img/datascienceclub/date/event.ics" download="event.ics">{% capture dsc_date %}{% include next-dsc-meeting.txt %}{% endcapture %}{{ dsc_date | strip }}, 17:00 UTC, Konrad-Zuse-Haus, Room 116.</a> <strong>Bring your laptops!</strong>
 </div>
 
 A weekly meeting for anyone who wants to learn about and apply Data Science for real-world problem settings in a casual environment!
@@ -294,7 +294,7 @@ A weekly meeting for anyone who wants to learn about and apply Data Science for 
 </script>
 
 <!-- D3.js Visualization Script -->
-<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="{{ site.third_party_libraries.d3.url.js }}"></script>
 <script>
     const viz = d3.select("#viz");
     const width = viz.node().getBoundingClientRect().width;

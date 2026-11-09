@@ -2,7 +2,7 @@ name: Update next DSC meeting date
 
 on:
   schedule:
-    # run every Tuesday at 0:00 UTC
+    # run every Wednesday at 0:00 UTC (the night after the meeting)
     # posix cron syntax: minute, hour, day of the month, month, weekday
     - cron: "0 0 * * 3"
   workflow_dispatch:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "The data is calling!"
-      - run: echo "The job was automatically triggered by a ${{ github.event_namme }} event."
+      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
       - name: checkout
         uses: actions/checkout@v4
 
@@ -23,24 +23,29 @@ jobs:
 
       - name: Update next meeting date
         run: |
-          # Get the date of the next Tuesday
-          next_meeting_date=$(date -d "next Tuesday" +%x)
+          # Get the date of the next Tuesday in an unambiguous format, e.g. "Tuesday, 10 November 2026"
+          next_meeting_date=$(LC_ALL=C date -d "next Tuesday" +"%A, %-d %B %Y")
 
           # Save the date to the file
           echo "$next_meeting_date" > _includes/next-dsc-meeting.txt
 
       - name: Generate .ics file for next meeting
         run: |
-          # Get the date and time for the event in YYYYMMDD format
+          # The meeting runs 17:00-20:00 UTC
+          event_day=$(date -d "next Tuesday" +"%Y-%m-%d")
           event_date=$(date -d "next Tuesday" +"%Y%m%d")
           start_time="${event_date}T170000Z"
           end_time="${event_date}T200000Z"
+          stamp=$(date -u +"%Y%m%dT%H%M%SZ")
 
           # Create the .ics content
           cat <<EOF > assets/img/datascienceclub/date/event.ics
           BEGIN:VCALENDAR
           VERSION:2.0
+          PRODID:-//Becker Lab//Data Science Club//EN
           BEGIN:VEVENT
+          UID:dsc-${event_day}@bckrlab.org
+          DTSTAMP:$stamp
           DTSTART:$start_time
           DTEND:$end_time
           SUMMARY:Data Science Club Meeting

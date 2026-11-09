@@ -2,7 +2,7 @@
 layout: page
 title: CRC MIA
 description: "AI for Understanding Maternal Immune Activation"
-img: assets/img/projects/crc-mia.jpg
+img: assets/img/projects/crc-mia.png
 importance: 1
 category: funded
 start_date: 2026-01-01

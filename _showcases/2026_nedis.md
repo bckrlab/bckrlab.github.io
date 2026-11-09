@@ -25,8 +25,7 @@ For this reason, it is important to treat biomarkers as parts of an interacting 
 
 NeDis is an easy-to-use, highly customizable, open-source package that enables quantification of the functional disruption of biomarker networks across conditions and time. This allows the discovery of interconnected and coordinated subgroups of biomarkers with characteristic disruption profiles (e.g., increasing disruption over time) and enables a dynamic perspective on the coordination and adaptation of biological systems.
 
-Synthetic experiments demonstrate that NeDis’ captures more intricate signals than dimensionality reduction (e.g., PCA or t-SNE). On high-dimensional single-cell mass cytometry (CyTOF) data, NeDis reveals coordinated functional disruptions of the immune system during human pregnancy, e.g., pointing to increased susceptibility to infection.
-
+Synthetic experiments demonstrate that NeDis captures more intricate signals than dimensionality reduction (e.g., PCA or t-SNE). On high-dimensional single-cell mass cytometry (CyTOF) data, NeDis reveals coordinated functional disruptions of the immune system during human pregnancy, e.g., pointing to increased susceptibility to infection.
 
 ## Acknowledgements
 
@@ -36,7 +35,7 @@ Among others the funding for this study was in part provided by the BMBF (01IS22
 
 - Paper: [Cell Patterns](https://www.sciencedirect.com/science/article/pii/S2666389926001273)
 - Code Repository: [https://github.com/bckrlab/nedis](https://github.com/bckrlab/nedis)
-- Zenodo ressourced:
-    - Code: [https://zenodo.org/records/19352950](https://zenodo.org/records/19352950)
-    - Data: [https://zenodo.org/records/10545240](https://zenodo.org/records/10545240)
-    - A Docker image for reproduction: [https://zenodo.org/records/19348875](https://zenodo.org/records/19348875)
+- Zenodo resources:
+  - Code: [https://zenodo.org/records/19352950](https://zenodo.org/records/19352950)
+  - Data: [https://zenodo.org/records/10545240](https://zenodo.org/records/10545240)
+  - A Docker image for reproduction: [https://zenodo.org/records/19348875](https://zenodo.org/records/19348875)

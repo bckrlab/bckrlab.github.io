@@ -280,7 +280,9 @@ let determineComputedTheme = () => {
 let initTheme = () => {
   let themeSetting = determineThemeSetting();
 
-  setThemeSetting(themeSetting);
+  // Apply the setting without storing it: it is only stored when the visitor uses the toggle (see privacy policy).
+  document.documentElement.setAttribute("data-theme-setting", themeSetting);
+  applyTheme();
 
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {

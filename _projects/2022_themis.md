@@ -6,6 +6,9 @@ img: assets/img/projects/themis_fig1_small.png
 importance: 2
 category: funded
 start_date: 2022-09-16
+permalink: /projects/themis/
+redirect_from:
+  - /projects/2022_themis/
 ---
 
 <img src="/assets/img/projects/themis_fig1.png" style="float: right; width:100%; padding: 1em; background-color: white;"/>
@@ -29,3 +32,12 @@ The methods developed will thus form the basis for gaining new insights in a wid
 
 <!--
 Die entwickelten Methoden werden so die Grundlage bilden, neue Erkenntnisse in unterschiedlichsten Anwendungsszenarien zu gewinnen und vorhandenes Wissen optimal für nachvollziehbares maschinelles Lernen zu nutzen. Mittelfristig soll dies die praktische Anwendung des wissensbasierten maschinellen Lernens in einer Vielzahl von Branchen ermöglichen wie etwa in der Umwelt-modellierung, Verhaltensanalyse oder in der biomedizinischen Entwicklung.  -->
+
+## Publications
+
+<!-- Generated from Zotero: items tagged "project:themis" (see _scripts/zotero.py) -->
+<div class="publications">
+
+{% bibliography -f zotero --group_by none -q @*[projects~=themis]* %}
+
+</div>

@@ -9,24 +9,22 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
+  {% comment %} Badges are rendered locally (no requests to img.shields.io or other third parties) {% endcomment %}
   <div class="badges">
     {%- if page.doi-url and page.doi-badge -%}
-    <a href="{{page.doi-url}}">
-      <img src="https://img.shields.io/badge/doi-{{page.doi-badge}}-blue?style=for-the-badge&logo=doi" alt="badge-doi" />
+    <a class="showcase-badge showcase-badge-doi" href="{{ page.doi-url }}">
+      <span class="showcase-badge-label"><i class="ai ai-doi" aria-hidden="true"></i>doi</span>
+      <span class="showcase-badge-value">{{ page.doi-badge }}</span>
     </a>
     {%- endif -%} {%- if page.github and page.github-badge -%}
-    <a href="{{page.github}}">
-      <img
-        src="https://img.shields.io/badge/GitHub-{{page.github-badge | replace: '-', '--' }}-black?style=for-the-badge&logo=github"
-        alt="badge-github"
-      />
+    <a class="showcase-badge showcase-badge-github" href="{{ page.github }}">
+      <span class="showcase-badge-label"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</span>
+      <span class="showcase-badge-value">{{ page.github-badge }}</span>
     </a>
     {%- endif -%} {%- if page.arxiv and page.arxiv-badge -%}
-    <a href="{{page.arxiv}}">
-      <img
-        src="https://img.shields.io/badge/arXiv-{{page.arxiv-badge | replace: '-', '--' }}-b31b1b?style=for-the-badge&logo=arxiv"
-        alt="badge-arxiv"
-      />
+    <a class="showcase-badge showcase-badge-arxiv" href="{{ page.arxiv }}">
+      <span class="showcase-badge-label"><i class="ai ai-arxiv" aria-hidden="true"></i>arXiv</span>
+      <span class="showcase-badge-value">{{ page.arxiv-badge }}</span>
     </a>
     {%- endif -%}
   </div>
