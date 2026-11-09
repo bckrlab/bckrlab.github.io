@@ -27,5 +27,3 @@ This framework is applied across two real-world cancer-related tasks, graph-leve
 
 - [https://github.com/bckrlab/bk-buster](https://github.com/bckrlab/bk-buster)
 - [https://github.com/bckrlab/kill-gnn](https://github.com/bckrlab/kill-gnn)
-- [https://github.com/bckrlab/cgmega](https://github.com/bckrlab/cgmega)
-- [https://github.com/bckrlab/emgnn](https://github.com/bckrlab/emgnn)

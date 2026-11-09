@@ -33,6 +33,32 @@ The methods developed will thus form the basis for gaining new insights in a wid
 <!--
 Die entwickelten Methoden werden so die Grundlage bilden, neue Erkenntnisse in unterschiedlichsten Anwendungsszenarien zu gewinnen und vorhandenes Wissen optimal für nachvollziehbares maschinelles Lernen zu nutzen. Mittelfristig soll dies die praktische Anwendung des wissensbasierten maschinellen Lernens in einer Vielzahl von Branchen ermöglichen wie etwa in der Umwelt-modellierung, Verhaltensanalyse oder in der biomedizinischen Entwicklung.  -->
 
+## Resources
+
+### Software
+
+Developed in the project:
+
+- [BK-Buster](/p/bk-buster/) ([code](https://github.com/bckrlab/bk-buster), [earlier experiments](https://github.com/bckrlab/kill-gnn)): perturbation framework for testing whether GNNs actually use biological background knowledge graphs.
+- [SubROC](/p/subroc/) ([code](https://github.com/bckrlab/subroc)): discovers subgroups where a classifier performs exceptionally well or poorly; also available in pysubgroup.
+- [EMC](/p/emc/) ([code](https://github.com/bckrlab/emc)): Evolving Markov Chains for online mode discovery and recognition in data streams.
+- [NeDis](/p/nedis/) ([code](https://github.com/bckrlab/nedis)): network-based analysis of how coordination among biomarkers is disrupted across conditions and time.
+- [CytoBERT](/p/cytobert/) ([code](https://github.com/bckrlab/cytobert)): foundation model for cytometry data with variable marker panels.
+- [ad-fidelity](/p/ad-fidelity/) ([code](https://github.com/bckrlab/ad-fidelity)): evaluates how faithful CNN explanations are for Alzheimer's disease detection.
+- [CorALS](https://github.com/bckrlab/corals): construction and analysis of large-scale correlation networks for high-dimensional data.
+
+Co-developed with collaborators:
+
+- [ITS](https://github.com/johSchm/ITS): test-time search for transformations that make classifiers invariant to rotation and scale.
+- [TokenSTN](https://github.com/johSchm/TokenSTN): token-based probabilistic spatial transformers for transformer architectures.
+- [SPACEc](https://github.com/yuqiyuqitan/SPACEc): interactive Python workflow for multiplexed image processing and analysis.
+- [pysubgroup](https://github.com/flemmerich/pysubgroup): subgroup discovery library, which includes SubROC.
+
+### Literature collections
+
+- [Awesome Informed Machine Learning](https://github.com/bckrlab/awesome-InformedMachineLearning): curated surveys, papers, and datasets on integrating background knowledge into machine learning.
+- [Awesome Heterogeneity](https://github.com/bckrlab/awesome-heterogeneity): curated methods for uncovering heterogeneity in complex systems along the horizontal (components), vertical (subgroups), and temporal axes.
+
 ## Publications
 
 <!-- Generated from Zotero: items tagged "project:themis" (see _scripts/zotero.py) -->
