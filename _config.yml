@@ -330,7 +330,7 @@ enable_publication_badges:
   # altmetric and dimensions load third-party scripts on every page; if you re-enable them, update the privacy policy (_pages/privacy.md)
   altmetric: false # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: false # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  google_scholar: false # Google Scholar badge, loads images from img.shields.io (https://scholar.google.com/intl/en/scholar/citations.html)
   inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
