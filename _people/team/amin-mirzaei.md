@@ -8,4 +8,4 @@ category: member
 email: mohammad.mirzaei@uni-rostock.de
 ---
 
-Amin Mirzaei is a research assistant and PhD student at Becker Lab. He is working on the [Themis Project](/projects/2022_themis).
+Amin Mirzaei is a research assistant and PhD student at Becker Lab. He is working on the [Themis Project](/projects/themis/).

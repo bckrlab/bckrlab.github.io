@@ -18,7 +18,7 @@ nav_order: 99
 
 <!--
 > **Two open PhD/Postdoc** positions. The calls are open until **January 31st, 2024**. We are looking forward to you applications! 🥳 Please apply for both positions!
-> * [Position 1](https://jobs.uni-rostock.de/jobposting/3ca315a64762f179542465dd0daf2331b9a5c3a80) (funded by the [THEMIS project](/projects/2022_themis))
+> * [Position 1](https://jobs.uni-rostock.de/jobposting/3ca315a64762f179542465dd0daf2331b9a5c3a80) (funded by the [THEMIS project](/projects/themis/))
 > * [Position 2](https://jobs.uni-rostock.de/jobposting/2317ec88a7e47bc3fb2c78f744415dd5a4de55400) (requires some German skills 🇩🇪)
 -->
 

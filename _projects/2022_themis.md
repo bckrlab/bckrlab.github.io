@@ -6,6 +6,9 @@ img: assets/img/projects/themis_fig1_small.png
 importance: 2
 category: funded
 start_date: 2022-09-16
+permalink: /projects/themis/
+redirect_from:
+  - /projects/2022_themis/
 ---
 
 <img src="/assets/img/projects/themis_fig1.png" style="float: right; width:100%; padding: 1em; background-color: white;"/>
