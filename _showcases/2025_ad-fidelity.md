@@ -4,7 +4,7 @@ title: Evaluating the Fidelity of Explanations for Convolutional Neural Networks
 title-short: ad-fidelity
 description: XAI for Alzheimer's Disease detection
 date: 2025-03-02
-doi-url: https://doi.org/10.1007/s00440-002-0236-0
+doi-url: https://doi.org/10.1007/978-3-658-47422-5_18
 doi-badge: 10/n87w
 github: https://github.com/chillerb/ad-fidelity
 github-badge: ad-fidelity
@@ -106,9 +106,7 @@ Apparently, it works like this:
 https://raw.githubusercontent.com/chillerb/ad-fidelity/refs/heads/main/docs/presentations/2025-03-09_bvm/2025-bvm.pdf
 -->
 
-The results have been presented at the [German Conference on Medical Image Computing (BVM) 2025](https://www.bvm-conf.org/):
-
-<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/chillerb/ad-fidelity/refs/heads/main/docs/presentations/2025-03-09_bvm/2025-bvm.pdf&embedded=true" width="100%" height="600px"></iframe>
+The results have been presented at the [German Conference on Medical Image Computing (BVM) 2025](https://www.bvm-conf.org/) ([slides, PDF](https://github.com/chillerb/ad-fidelity/blob/main/docs/presentations/2025-03-09_bvm/2025-bvm.pdf)).
 
 ## Acknowledgements
 
