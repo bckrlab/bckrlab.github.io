@@ -289,11 +289,6 @@ ninja.data = [{
           description: "Admin",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/julia-prahl/";
-            },},{id: "people-nadja-schlungbaum",
-          title: 'Nadja Schlungbaum',
-          description: "Systems Engineer",
-          section: "People",handler: () => {
-              window.location.href = "/people/alumni/nadescha-schlungbaum/";
             },},{id: "people-peter-eschholz",
           title: 'Peter Eschholz',
           description: "System Engineer",
