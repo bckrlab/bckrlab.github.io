@@ -5,6 +5,7 @@ description:
 nav: true
 nav_order: 20
 dropdown: true
+sitemap: false # menu-only page; its own URL is an empty page
 children:
   - title: Teaching
     permalink: /for-students/teaching/
