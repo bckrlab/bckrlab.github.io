@@ -72,12 +72,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/join-us/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "jobs-crc-mia-ai-for-understanding-maternal-immune-activation",
+        },{id: "jobs-crc-mia-ai-for-understanding-maternal-immune-activation",
           title: 'CRC MIA - AI for Understanding Maternal Immune Activation',
           description: "Postdoc, Deadline: September 14th",
           section: "Jobs",handler: () => {
@@ -144,7 +139,7 @@ ninja.data = [{
           section: "News",},{id: "news-come-join-us-we-are-looking-for-phd-students-work-on-amazing-projects",
           title: '🧑‍🤝‍🧑: Come join us! We are looking for PhD students work on amazing...',
           description: "",
-          section: "News",},{id: "news-read-our-new-paper-on-multiomic-signals-associated-with-maternal-epidemiological-factors-contributing-to-preterm-birth-in-low-and-middle-income-countries-in-science-advances-leady-by-camilo-espinosa-and-nima-aghaeepour",
+          section: "News",},{id: "news-read-our-new-paper-on-multiomic-signals-associated-with-maternal-epidemiological-factors-contributing-to-preterm-birth-in-low-and-middle-income-countries-in-science-advances-led-by-camilo-espinosa-and-nima-aghaeepour",
           title: '📚 Read our new paper on Multiomic signals associated with maternal epidemiological factors...',
           description: "",
           section: "News",},{id: "news-️-invited-talk-at-the-eu-funded-digital-innovation-center-on-chatgpt-llms-and-a-breeze-of-ai-in-the-context-of-the-snack-it-seminar-series",
@@ -364,11 +359,6 @@ ninja.data = [{
           description: "Behavior Monitoring in Virtual Reality for Profiling Cognitive Decline",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_vibe/";
-            },},{id: "projects-deepcell",
-          title: 'DeepCell',
-          description: "A VR Knowledge Board powered by AI",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2023_vr-knowledge-board/";
             },},{id: "projects-crc-mia",
           title: 'CRC MIA',
           description: "AI for Understanding Maternal Immune Activation",
