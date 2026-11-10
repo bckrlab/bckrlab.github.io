@@ -279,16 +279,16 @@ ninja.data = [{
           description: "Master student, research intern",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/julia-koch/";
+            },},{id: "people-konstantin-frunzek",
+          title: 'Konstantin Frunzek',
+          description: "Student assistant",
+          section: "People",handler: () => {
+              window.location.href = "/people/alumni/konstantin-frunzek/";
             },},{id: "people-tom-krüger",
           title: 'Tom Krüger',
           description: "Master student",
           section: "People",handler: () => {
               window.location.href = "/people/alumni/tom-krueger/";
-            },},{id: "people-konstantin-frunzek",
-          title: 'Konstantin Frunzek',
-          description: "Student assistant",
-          section: "People",handler: () => {
-              window.location.href = "/people/students/konstantin-frunzek/";
             },},{id: "people-amin-mirzaei",
           title: 'Amin Mirzaei',
           description: "Research assistant and PhD student",
