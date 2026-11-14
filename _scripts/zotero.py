@@ -15,7 +15,9 @@ What gets cleaned up on the way:
   removed, since the .bib file is published with the website.
 - The "Extra" field becomes the note shown below an entry (e.g. a poster's
   venue). Lines of the form "Key: value" are Zotero metadata and are dropped.
-- Items without a DOI get an "HTML" button that links to their URL.
+- A URL pointing at a file in this repo's f/ folder (https://bckrlab.org/f/<name>.pdf)
+  becomes a "PDF" button; other items without a DOI get an "HTML" button that
+  links to their URL.
 - Conference papers without a proceedings title show their conference name.
 - Duplicates (same title and DOI) are dropped with a warning.
 - Zotero tags of the form "project:<name>" (e.g. "project:themis") become a
@@ -43,6 +45,10 @@ PAGE_SIZE = 100
 
 # "Key: value" lines in Zotero's Extra field (e.g. "_eprint: ...", "version: 1", "tex.address: ...")
 METADATA_LINE = re.compile(r"^\s*(\\?_)?[A-Za-z][A-Za-z0-9 .\\_-]*:\s")
+
+# URL of a PDF published from this repo's f/ folder (self-hosted papers and reports)
+SITE_PDF = re.compile(r"^https?://bckrlab\.org/f/([^/?#]+\.pdf)$", re.IGNORECASE)
+FILES_DIR = Path(__file__).resolve().parent.parent / "f"
 
 # Zotero tags that assign an item to a project page, e.g. "project:themis"
 PROJECT_TAG = re.compile(r"^project:([a-z0-9-]+)$")
@@ -142,8 +148,15 @@ def to_entry(item):
             if value is None:
                 continue
         cleaned.append((name, value))
-        if name == "url" and "doi" not in names and "html" not in names:
-            cleaned.append(("html", value))
+        if name == "url" and "pdf" not in names and "html" not in names:
+            site_pdf = SITE_PDF.match(value[1:-1])
+            if site_pdf:
+                filename = site_pdf.group(1)
+                if not (FILES_DIR / filename).is_file():
+                    print(f"Missing f/{filename} for {key}: its PDF button will be a dead link", file=sys.stderr)
+                cleaned.append(("pdf", "{" + filename + "}"))
+            elif "doi" not in names:
+                cleaned.append(("html", value))
     conference = item["data"].get("conferenceName")
     if entry_type == "inproceedings" and "booktitle" not in names and conference:
         cleaned.append(("booktitle", "{" + re.sub(r"([&%$#_{}])", r"\\\1", conference) + "}"))
