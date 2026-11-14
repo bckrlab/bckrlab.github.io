@@ -238,7 +238,7 @@
 
 @techreport{hiller2026prior,
   title = {Prior {Knowledge} on {Features}: {Should} {You} {Listen} to {Your} {Experts}?},
-  url = {https://bckrlab.org/f/hiller2026prior.pdf},
+  url = {https://bckrlab.org/files/hiller2026prior.pdf},
   pdf = {hiller2026prior.pdf},
   language = {en},
   institution = {University of Rostock and Marburg University, Becker Lab},
@@ -249,7 +249,7 @@
 
 @techreport{siegl2026latentsubgroups,
   title = {Latent {Subgroups}: {Testing} the {Assumptions} {Behind} {GDRO} in {GEORGE}},
-  url = {https://bckrlab.org/f/siegl2026latentsubgroups.pdf},
+  url = {https://bckrlab.org/files/siegl2026latentsubgroups.pdf},
   pdf = {siegl2026latentsubgroups.pdf},
   abstract = {GEORGE is a two-stage method for robustness to hidden subclasses: it clusters the feature space of a model trained by empirical risk minimization (ERM) within each class and then trains a new model with group distributionally robust optimization (GDRO), using the clusters as groups. Both stages rest on assumptions that are rarely tested in isolation. We test two of them. First, we check whether the quality of GEORGE’s clusterings predicts how much the GDRO stage improves over ERM. Across ten replications on each of MNIST, Waterbirds, ISIC and CelebA, there is not a clear trend in terms of correlation. Cluster-score gating of the GDRO stage is therefore not supported. Second, we check whether GDRO is a safe objective once a group is intrinsically hard, i.e. when its classes overlap. On a synthetic four-Gaussian problem with a linear model, GDRO finds the same mean decision boundary as ERM, but its decision boundaries vary much more from run to run once the hard groups overlap strongly. When the hard groups carry no class signal at all, GDRO’s boundaries become arbitrary. This instability is not explained by lagging group weights, by groups being split by class, or by the optimizer hyperparameters. It follows from GDRO assigning near-zero weight to the easy groups, which then no longer constrain the model.},
   language = {en},
