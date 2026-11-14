@@ -11,6 +11,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "f/**"
       - "_sass/**"
       - "_scripts/**"
       - "**.bib"
@@ -40,6 +41,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "f/**"
       - "_sass/**"
       - "_scripts/**"
       - "**.bib"
