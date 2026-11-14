@@ -1,5 +1,7 @@
 # al-folio
 
+> **bckrlab fork.** How this site is maintained (publications from Zotero, hosted PDFs, local testing) is described in [MAINTAINING.md](MAINTAINING.md). The rest of this file is the upstream theme documentation.
+
 <div align="center">
 
 [![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)

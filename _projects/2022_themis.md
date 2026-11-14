@@ -69,7 +69,7 @@ Co-developed with collaborators:
 
 ## Publications
 
-<!-- Generated from Zotero: items tagged "project:themis" (see _scripts/zotero.py) -->
+<!-- Generated from Zotero: items tagged "project:themis" (see MAINTAINING.md and _scripts/zotero.py) -->
 <div class="publications">
 
 {% bibliography -f zotero --group_by none -q @*[projects~=themis]* %}

@@ -212,12 +212,14 @@ exclude:
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
+  - MAINTAINING.md
   - lighthouse_results/
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
   - _pages/README.md
   - _pages/join-us/README.md
+  - _showcases/README.md
   - _scripts/publish.sh
   - _scripts/publish.d/
   - _scripts/zotero.py
