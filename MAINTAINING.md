@@ -1,6 +1,6 @@
 # Maintaining bckrlab.org
 
-Fork of the [al-folio](https://github.com/alshedivat/al-folio) theme. `README.md`, `CUSTOMIZE.md`, `INSTALL.md` and `FAQ.md` are the theme's own docs; this file covers what is specific to the lab site. Pushing to `master` deploys.
+Fork of the [al-folio](https://github.com/alshedivat/al-folio) theme. `README.md`, `CUSTOMIZE.md`, `INSTALL.md` and `FAQ.md` are the theme's own docs; this file covers what is specific to the lab site. Pushing to `main` deploys.
 
 ## Publications
 
@@ -50,8 +50,8 @@ A `jupyter` command must be on the `PATH` (any Python environment with nbconvert
 
 ## Deploying
 
-`.github/workflows/deploy.yml` runs on every push to `master` that touches a watched path (`assets/`, `files/`, `_sass/`, `_scripts/`, `.bib`, `.html`, `.liquid`, `.md`, `.yml`, Gemfiles); anything else waits for the weekly run. A failed deploy leaves the live site untouched, so check the Actions tab after pushing.
+`.github/workflows/deploy.yml` runs on every push to `main` that touches a watched path (`assets/`, `files/`, `_sass/`, `_scripts/`, `.bib`, `.html`, `.liquid`, `.md`, `.yml`, Gemfiles); anything else waits for the weekly run. A failed deploy leaves the live site untouched, so check the Actions tab after pushing.
 
 ## Updating the theme
 
-Upstream al-folio is merged into `master` now and then, so lab-specific notes stay out of the upstream docs. Lab-owned files: this file, `_scripts/`, `files/`, `_bibliography/zotero.bib`, `.github/workflows/zotero-sync.yml` (and the `workflow_call` trigger and checkout `ref` it relies on in `deploy.yml`), the content folders (`_pages/`, `_projects/`, `_showcases/`, `_people/`, `_news/`, `_jobs/`, `_student_*`) and the download buttons in `_layouts/bib.liquid`, which read from `files/`.
+Upstream al-folio is merged into `main` now and then, so lab-specific notes stay out of the upstream docs. Lab-owned files: this file, `_scripts/`, `files/`, `_bibliography/zotero.bib`, `.github/workflows/zotero-sync.yml` (and the `workflow_call` trigger and checkout `ref` it relies on in `deploy.yml`), the content folders (`_pages/`, `_projects/`, `_showcases/`, `_people/`, `_news/`, `_jobs/`, `_student_*`) and the download buttons in `_layouts/bib.liquid`, which read from `files/`.
