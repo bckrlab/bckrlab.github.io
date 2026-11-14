@@ -1,0 +1,67 @@
+name: Sync publications from Zotero
+
+# Regenerates _bibliography/zotero.bib from the Zotero group library. If it changed,
+# the new file is committed and the site is deployed. Needs the repository secret
+# ZOTERO_API_KEY: a zotero.org key with read-only access to the group "bckrlab".
+
+on:
+  schedule:
+    # run every night at 1:17 UTC (GitHub may start scheduled runs a few hours late)
+    # posix cron syntax: minute, hour, day of the month, month, weekday
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zotero-sync
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Export publications from Zotero
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+        run: |
+          if [ -z "$ZOTERO_API_KEY" ]; then
+            echo "::error::The repository secret ZOTERO_API_KEY is not set."
+            exit 1
+          fi
+          python3 _scripts/zotero.py
+
+      - name: Commit and push if the bibliography changed
+        id: commit
+        run: |
+          if git diff --quiet -- _bibliography/zotero.bib; then
+            echo "Nothing changed in Zotero."
+            exit 0
+          fi
+
+          # show what changed on the run's summary page
+          {
+            echo '```diff'
+            git diff -- _bibliography/zotero.bib
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          git config user.name "bckrlab-bot"
+          git config user.email "bckrlab-bot@users.noreply.github.com"
+          git commit -m "Update publications from Zotero" -- _bibliography/zotero.bib
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  # A push made by a workflow does not start the deploy workflow, so call it directly.
+  # A failed build then fails this run, which notifies whoever last edited the schedule above.
+  deploy:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: ${{ github.ref }}

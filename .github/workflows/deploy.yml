@@ -66,6 +66,13 @@ on:
       - "!INSTALL.md"
       - "!README.md"
   workflow_dispatch:
+  # called by zotero-sync.yml after it has pushed a new bibliography
+  workflow_call:
+    inputs:
+      ref:
+        description: Branch to build, instead of the commit that triggered the caller
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -77,6 +84,9 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          # empty unless called by zotero-sync.yml, which means the triggering commit as usual
+          ref: ${{ inputs.ref }}
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
