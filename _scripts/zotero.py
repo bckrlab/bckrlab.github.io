@@ -23,6 +23,8 @@ What gets cleaned up on the way:
 - Zotero tags of the form "project:<name>" (e.g. "project:themis") become a
   "projects" field instead of keywords. A project page lists its publications
   with {% bibliography -f zotero --group_by none -q @*[projects~=<name>]* %}.
+- Other tags of the form "name:value" (e.g. "themis:fkz-missing") are internal
+  working tags: they stay in Zotero but are never published as keywords.
 """
 
 import json
@@ -52,6 +54,9 @@ FILES_DIR = Path(__file__).resolve().parent.parent / "files"
 
 # Zotero tags that assign an item to a project page, e.g. "project:themis"
 PROJECT_TAG = re.compile(r"^project:([a-z0-9-]+)$")
+
+# Internal working tags, e.g. "themis:fkz-missing"; a colon followed by a space is prose, e.g. "DSML2: Proof-of-concept"
+INTERNAL_TAG = re.compile(r"^[a-z0-9-]+:\S")
 
 
 def fetch_items():
@@ -127,7 +132,7 @@ def project_tags(item):
 
 def clean_keywords(value, drop):
     # Zotero's BibTeX export joins all tags with ", "
-    keywords = [keyword for keyword in value[1:-1].split(", ") if keyword not in drop]
+    keywords = [keyword for keyword in value[1:-1].split(", ") if keyword not in drop and not INTERNAL_TAG.match(keyword)]
     return "{" + ", ".join(keywords) + "}" if keywords else None
 
 
