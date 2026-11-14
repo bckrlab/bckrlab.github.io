@@ -29,7 +29,7 @@ layout: default
     </div>
 
     <div style="flex: 75">
-      {%- if page.email | page.phone | page.room | page.homepage | page.github -%}
+      {%- if page.email or page.phone or page.room or page.homepage or page.github -%}
       <h1>Contact</h1>
       {%- if page.email -%}
       <div>Email: <a href="mailto:{{ page.email }}">{{ page.email }}</a></div>

@@ -11,6 +11,14 @@ redirect_from:
   - /projects/2022_themis/
 ---
 
+<img src="/assets/img/projects/bmbf_internet_in_farbe_en.jpg" alt="Sponsored by the Federal Ministry of Education and Research" style="float: right; height: 9em; margin-left: 1em;"/>
+
+- **Funding:** German Federal Ministry of Education and Research (BMBF), AI junior research group, grant 01IS22077
+- **Duration:** September 2022 – December 2025
+- **Host institution:** University of Rostock
+- **PI:** [Martin Becker](/people/team/martin-becker/)
+- **Team:** [Bjarne Hiller](/people/team/bjarne-hiller/), [Amin Mirzaei](/people/team/amin-mirzaei/), [Tom Siegl](/people/team/tom-siegl/), [Kutalmış Coşkun](/people/team/kutalmis-coskun/)
+
 <img src="/assets/img/projects/themis_fig1.png" style="float: right; width:100%; padding: 1em; background-color: white;"/>
 
 ## Motivation
@@ -21,14 +29,14 @@ Complex systems are ubiquitous, whether in environmental processes, human behavi
 
 ## Goals and approach
 
-Therefore, the AI ​​junior research group Themis deals with knowledge extraction and knowledge integration for machine learning. The project aims to develop knowledge extraction methods to explain and understand complex systems along three axes: horizontal (interactions between components of the system), vertical (differences in the collected data, such as for different groups of people), and temporal (over time). Furthermore, the limits and the potential of knowledge integration in practical applications are examined and optimized. The methods developed are to be tested in case studies and projects with users.
+The AI junior research group THEMIS therefore worked on knowledge extraction and knowledge integration for machine learning. The project aimed to develop knowledge extraction methods to explain and understand complex systems along three axes: horizontal (interactions between components of the system), vertical (differences in the collected data, such as for different groups of people), and temporal (over time). It also set out to examine and optimize the limits and the potential of knowledge integration in practical applications, and to test the developed methods in case studies and projects with users.
 
 <!--
 Deshalb befasst sich die KI-Nachwuchsgruppe Themis mit Wissensextraktion und Wissensintegration für maschinelles Lernen. Das Projekt zielt darauf ab, Methoden zur Wissensextraktion zu entwickeln, um komplexe Systeme entlang dreier Achsen zu erklären und zu verstehen: horizontal (Interaktionen zwischen Komponenten des Systems), vertikal (Unterschiede in den gesammelten Daten, wie etwa für unterschiedliche Personengruppen), sowie temporal (über die Zeit). Weiterhin werden die Grenzen sowie das Potenzial von Wissensintegration in praktischen Anwendungen  untersucht und optimiert. Die entwickelten Methoden sollen in Fallstudien und Projekten mit Anwendern erprobt werden.  -->
 
-## Innovation und perspectives
+## Innovation and perspectives
 
-The methods developed will thus form the basis for gaining new insights in a wide variety of application scenarios and optimally using existing knowledge for comprehensible machine learning. In the medium term, this should enable the practical application of knowledge-based machine learning in a variety of industries such as environmental modelling, behavioral analysis or biomedical development.
+The methods developed in THEMIS provide a basis for gaining new insights in a wide variety of application scenarios and for making the best use of existing knowledge in comprehensible machine learning. In the medium term, they are meant to enable the practical application of knowledge-based machine learning in a variety of areas such as environmental modelling, behavioral analysis, or biomedical development.
 
 <!--
 Die entwickelten Methoden werden so die Grundlage bilden, neue Erkenntnisse in unterschiedlichsten Anwendungsszenarien zu gewinnen und vorhandenes Wissen optimal für nachvollziehbares maschinelles Lernen zu nutzen. Mittelfristig soll dies die praktische Anwendung des wissensbasierten maschinellen Lernens in einer Vielzahl von Branchen ermöglichen wie etwa in der Umwelt-modellierung, Verhaltensanalyse oder in der biomedizinischen Entwicklung.  -->
