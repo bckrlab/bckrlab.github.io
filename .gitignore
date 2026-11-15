@@ -15,3 +15,5 @@ package-lock.json
 Gemfile.lock
 assets/libs/
 node_modules/
+# Claude Code worktrees are local checkouts; shared project settings in .claude/ may be committed
+.claude/worktrees/
